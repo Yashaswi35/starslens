@@ -6,3 +6,10 @@ __pycache__/
 *.duckdb
 *.duckdb.wal
 .env
+# intermediate outputs (logs are copied into results/)
+/*_log.txt
+/methodology_*.txt
+/pdf_peek_*.txt
+/inventory.txt
+/output_*.csv
+/llm_errors.txt

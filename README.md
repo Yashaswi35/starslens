@@ -82,11 +82,11 @@ counterfactual.py   2026 ratings under pre-2026 weights
 ## Run it
 
 ```bash
-pip install duckdb pandas pyarrow pdfplumber requests ollama pydantic openpyxl
+pip install -r requirements.txt
 python download.py && python load.py && python build.py
 python extract_reference.py && python llm_extract.py      # needs Ollama with llama3.2 and gemma3:4b
 python methodology_peek.py && python methodology_peek2.py && python parse_methodology.py
 python replicate.py && python counterfactual.py
 ```
 
-Logs from the runs behind these numbers are in `results/`.
+Logs from the runs behind these numbers are in `results/`. Development tools used to inspect the PDFs and list LLM errors are in `diagnostics/` (run them from the project root, for example `python diagnostics/llm_errors.py`).

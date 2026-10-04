@@ -1,0 +1,8 @@
+duckdb
+pandas
+pyarrow
+openpyxl
+pdfplumber
+requests
+ollama
+pydantic
