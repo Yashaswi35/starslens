@@ -1,0 +1,63 @@
+2024: 2024_Report_Card_Master_Table_2024_07_02.xlsx
+   measure stars rows: 35,994   contracts: 857
+2025: 2025_Report_Card_Master_Table_2024_12_02.xlsx
+   measure stars rows: 33,138   contracts: 789
+2026: 2026_Report_Card_Master_Table_2026_07_22.xlsx
+   measure stars rows: 34,605   contracts: 769
+[raw_measure_stars] 103,737 rows
+[raw_measure_data] 103,737 rows
+[raw_contracts] 2,415 rows
+[raw_summary] 24,150 rows
+[raw_cai] 18,872 rows
+[raw_domain_stars] 31,395 rows
+[raw_cut_points] 825 rows
+
+Sample measures by year:
+ star_year  measures  contracts
+      2024        42        857
+      2025        42        789
+      2026        45        769
+
+Most common non-numeric star values:
+                         star_value    n
+        Plan too new to be measured 9974
+          Not enough data available 8904
+Plan not required to report measure 7984
+      Plan too small to be measured 7038
+                  No data available 3558
+             Not required to report   43
+        Benefit not offered by plan   21
+        Plan not required to report    9
+
+Summary fields:
+ star_year                       field   n
+      2024             2021 Disaster % 857
+      2024             2022 Disaster % 857
+      2024                2024 Overall 857
+      2024         2024 Part C Summary 857
+      2024         2024 Part D Summary 857
+      2024               Contract Name 857
+      2024 Organization Marketing Name 857
+      2024           Organization Type 857
+      2024         Parent Organization 857
+      2024                         SNP 857
+      2025             2022 Disaster % 789
+      2025             2023 Disaster % 789
+      2025                2025 Overall 789
+      2025         2025 Part C Summary 789
+      2025         2025 Part D Summary 789
+      2025               Contract Name 789
+      2025 Organization Marketing Name 789
+      2025           Organization Type 789
+      2025         Parent Organization 789
+      2025                         SNP 789
+      2026             2023 Disaster % 769
+      2026             2024 Disaster % 769
+      2026                2026 Overall 769
+      2026         2026 Part C Summary 769
+      2026         2026 Part D Summary 769
+      2026               Contract Name 769
+      2026 Organization Marketing Name 769
+      2026           Organization Type 769
+      2026         Parent Organization 769
+      2026                         SNP 769

@@ -1,0 +1,94 @@
+
+========================= PDF PAGE 17 =========================
+2025 or the 2026 Star Rating (and corresponding measure score) for each HOS and HEDIS-HOS
+measure.
+o In some cases, contracts with at least 25% of enrollees residing in FEMA-designated Individual
+Assistance areas affected by disasters that began in 2023 were also affected by disasters in 2022.
+These doubly-affected contracts receive the higher of the 2026 Star Rating or what the 2025 Star
+Rating would have been in the absence of any adjustments that took into account the effects of
+the 2022 disaster for each HOS and HEDIS-HOS measure (we use the corresponding measure
+score for the Star Ratings year selected).
+• HEDIS adjustments:
+o All contracts were required to report HEDIS measurement year 2024 unless the contract
+requested and CMS approved an exemption. Contracts were able to work with NCQA to adjust
+samples if necessary.
+o Contracts with 25% or more affected members received the higher of the 2025 or 2026 Star
+Rating (and corresponding measure scores) for each HEDIS measure.
+o In some cases, contracts with at least 25% of enrollees residing in FEMA-designated Individual
+Assistance areas affected by disasters that began in 2024 were also affected by disasters in 2023.
+These doubly-affected contracts receive the higher of the 2026 Star Rating or what the 2025 Star
+Rating would have been in the absence of any adjustments that took into account the effects of
+the 2023 disaster for each measure (we use the corresponding measure score for the Star Ratings
+year selected).
+• Part C and D Call Center:
+o For all contracts, no adjustments were made.
+Newmeasures:
+o Contracts with 25% or more affected members have a hold harmless provision applied which
+compares the result of a contract’s overall rating “with” and “without” including all of the
+applicable new measure(s) and/or respecified measure(s). If the “with” result is lower than the
+“without” result, then we use the “without” result as the final highest level rating. For the 2026
+Star Ratings, two new measures are HOS measures and one is a HEDIS measure. As noted
+above, HOS measures are adjusted for disasters occurring in 2023 whereas HEDIS measures are
+adjusted for disasters occurring in 2024. Therefore, the hold harmless provision is conditionally
+applied for a given contract according to the new measures’ available data. Contracts with data
+for both the new HEDIS measure and at least one of the new HOS measures are eligible for the
+new measure hold harmless provision if the percentage of beneficiaries affected by a disaster is
+at least 25 percent in either 2023 or 2024. Contracts with only available data for the new HEDIS
+measure are eligible for the new measure hold harmless provision if the percentage of
+beneficiaries affected by a disaster is at least 25 percent in 2024. Contracts with only data for one
+or both of the new HOS measures are eligible for the new measure hold harmless provision if the
+percentage of beneficiaries affected by a disaster is at least 25 percent in 2023.
+o A similar hold harmless provision is applied for the Part C and D summary ratings, when
+applicable. If a contract has 25% or more affected members, the Part C and D summary ratings
+are calculated “with” and “without” including all of the applicable new measure(s) and/or
+respecified measure(s), and if the “with” result is lower than the “without” result, then we use the
+“without” result for the final summary ratings. For the 2026 Star Ratings, all new measures are
+Part C measures with differing disaster year adjustments, and a similar conditional hold harmless
+provision as described above for the overall rating is applied based on new measures’ available
+data.
+(Last Updated 09/25/2025) Page 8
+
+========================= PDF PAGE 25 =========================
+Table 9: Variance Thresholds
+New Part D Rating (MA- Part D Rating Overall
+Improvement Measures Percentile Part C Rating PD) (PDP) Rating
+With With 30th 0.918435 0.754209 0.869005 0.914850
+With With 70th 1.285170 1.268986 1.747939 1.263462
+With Without 30th 0.909844 0.754209 0.869005 0.905154
+With Without 70th 1.281071 1.268986 1.747939 1.272639
+Without With 30th 0.914326 0.736111 0.749180 0.908919
+Without With 70th 1.328432 1.318182 1.814773 1.269610
+Without Without 30th 0.908942 0.736111 0.749180 0.915156
+Without Without 70th 1.310167 1.318182 1.814773 1.289063
+Categorical Adjustment Index (CAI)
+The Categorical Adjustment Index (CAI) is an analytical adjustment factor that is added to or subtracted from a
+contract’s Overall and/or Summary Star Ratings to adjust for the average within-contract disparity in
+performance for Low Income Subsidy/Dual Eligible (LIS/DE) beneficiaries and disabled beneficiaries. The CAI
+value (factor) depends on the contract’s percentage of beneficiaries with LIS/DE and the contract’s percentage
+of beneficiaries with disabled status. These adjustments are performed both with and without the improvement
+measures included. The value of the CAI varies by the contract’s percentage of beneficiaries with LIS/DE and
+disability status.
+The CAI values use data collected for the 2025 Star Ratings. To calculate the CAI, case-mix adjustment is
+applied to clinical Star Rating measure scores (see below) that are not adjusted for SES using a beneficiary-
+level logistic regression model with contract fixed effects and beneficiary-level indicators of LIS/DE and
+disability status, similar to the approach currently used to adjust CAHPS patient experience measures. However,
+unlike CAHPS case-mix adjustment, the only adjusters are LIS/DE and disability status. Adjusted measure
+scores are then converted to measure stars using the 2025 rating year measure cutoffs and used to calculate
+Adjusted Overall and Summary Star Ratings. Unadjusted Overall and Summary Star Ratings are also
+determined for each contract.
+The 2025 measures used in the 2026 CAI adjustment calculations are:
+• Breast Cancer Screening (Part C)
+• Colorectal Cancer Screening (Part C)
+• Annual Flu Vaccine (Part C)
+• Monitoring Physical Activity (Part C)
+• Osteoporosis Management in Women who had a Fracture (Part C)
+• Diabetes Care – Eye Exam (Part C)
+• Diabetes Care – Blood Sugar Controlled (Part C)
+• Controlling Blood Pressure (Part C)
+• Reducing the Risk of Falling (Part C)
+• Improving Bladder Control (Part C)
+• Medication Reconciliation Post-Discharge (Part C)
+• Plan All-Cause Readmissions (Part C)
+• Statin Therapy for Patients with Cardiovascular Disease (Part C)
+• Transitions of Care (Part C)
+(Last Updated 09/25/2025) Page 16

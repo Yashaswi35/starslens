@@ -1,0 +1,230 @@
+2026: downloading data tables ...
+2026: downloading technical notes ...
+2025: downloading data tables ...
+2025: downloading technical notes ...
+2024: downloading data tables ...
+2024: downloading technical notes ...
+
+=== INVENTORY ===
+
+##### 2024 #####
+
+- 2024_technical_notes.pdf  (13,671 KB)
+
+- tables/2024 Star Ratings Data Table - CAI (Jul 2 2024).csv  (123 KB)
+    | 2024 CAI View: Medicare Report Card Master Table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | Contract Number,Organization Marketing Name,Contract Name,Parent Organization,Puerto Rico Only,Part C FAC,Part D MA-PD FAC,Part D PDP FAC,Overall FAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | E3014 ,Pennsylvania Public School Employees Retirement Sy ,PSERS HOP PROGRAM ,Commonwealth of PA Pub Schools Retirement System ,No ,N/A ,N/A ,1,N/A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | H0028 ,Humana ,"CHA HMO, INC. ",Humana Inc. ,No ,2,3,N/A ,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+- tables/2024 Star Ratings Data Table - Disenrollment Reasons (Jul 2 2024).csv  (124 KB)
+    | 2024 Disenrollment Reasons View: Medicare Report Card Master Table,,,,,,,,
+    | Contract Number,Organization Marketing Name,Contract Name,Parent Organization,Problems Getting the Plan to Provide and Pay for Needed Care,Problems with Coverage of Doctors and Hos
+    | E3014 ,Pennsylvania Public School Employees Retirement Sy ,PSERS HOP PROGRAM ,Commonwealth of PA Pub Schools Retirement System ,Not Applicable ,Not Applicable ,Not Available ,Not A
+    | H0028 ,Humana ,"CHA HMO, INC. ",Humana Inc. ,19%,22%,19%,Not Available ,13%
+
+- tables/2024 Star Ratings Data Table - Domain Stars (Jul 2 2024).csv  (202 KB)
+    | 2024 Domain Star View: Medicare Report Card Master Table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | Contract Number,Organization Type,Contract Name,Organization Marketing Name,Parent Organization,"HD1: Staying Healthy: Screenings, Tests and Vaccines",HD2: Managing Chronic (Long T
+    | E3014 ,Employer/Union Only Direct Contract PDP ,PSERS HOP PROGRAM ,Pennsylvania Public School Employees Retirement Sy ,Commonwealth of PA Pub Schools Retirement System ,Plan not re
+    | H0022 ,Demo ,"BUCKEYE COMMUNITY HEALTH PLAN, INC. ",Buckeye Health Plan - MyCare Ohio ,Centene Corporation ,Not enough data available ,Not enough data available ,Not enough data av
+
+- tables/2024 Star Ratings Data Table - High Performing Contracts (Jul 2 2024).csv  (7 KB)
+    | 2024 High Performing Contracts: Medicare Report Card Master Table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | Contract Number,Organization Type,Contract Name,Organization Marketing Name,Parent Organization,Rated As,Highest Rating,Rating,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | H0154 ,Local CCP ,"VIVA HEALTH, INC. ",VIVA Medicare ,"Triton Health Systems, L.L.C. ",MA-PD ,Overall ,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | H0169 ,Local CCP ,"UNITEDHEALTHCARE OF WISCONSIN, INC. ",UnitedHealthcare ,"UnitedHealth Group, Inc. ",MA-PD ,Overall ,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+- tables/2024 Star Ratings Data Table - Low Performing Contracts (Jul 2 2024).csv  (1 KB)
+    | 2024 Low Performing Contracts: Medicare Report Card Master Table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | Contract Number,Organization Type,Contract Name,Organization Marketing Name,Parent Organization,Rated As,2022 C Summary,2022 D Summary,2023 C Summary,2023 D Summary,2024 C Summary,
+    | H0724 ,Local CCP ,"BUCKEYE HEALTH PLAN COMMUNITY SOLUTIONS, Inc. ",Wellcare by Allwell ,Centene Corporation ,MA-PD ,2.5,3,3,2.5,2.5,2.5,Part C or D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | H5199 ,Local CCP ,"WELLCARE HEALTH INSURANCE OF ARIZONA, INC. ",Wellcare ,Centene Corporation ,MA-PD ,2.5,3.5,2,2.5,2.5,3.5,Part C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+- tables/2024 Star Ratings Data Table - Measure Data (Jul 2 2024).csv  (612 KB)
+    | 2024 Data View: Medicare Report Card Master Table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | CONTRACT_ID,Organization Type,Contract Name,Organization Marketing Name,Parent Organization,"HD1: Staying Healthy: Screenings, Tests and Vaccines",,,,HD2: Managing Chronic (Long Te
+    | ,,,,,C01: Breast Cancer Screening,C02: Colorectal Cancer Screening,C03: Annual Flu Vaccine,C04: Monitoring Physical Activity,C05: Special Needs Plan (SNP) Care Management,C06: Care
+    | ,,,,,01/01/2022  12/31/2022,01/01/2022  12/31/2022,03/2023  06/2023,07/19/2022  11/01/2022,01/01/2022  12/31/2022,01/01/2022  12/31/2022,01/01/2022  12/31/2022,01/01/2022  
+
+- tables/2024 Star Ratings Data Table - Measure Stars (Jul 2 2024).csv  (528 KB)
+    | 2024 Star View: Medicare Report Card Master Table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | CONTRACT_ID,Organization Type,Contract Name,Organization Marketing Name,Parent Organization,"HD1: Staying Healthy: Screenings, Tests and Vaccines",,,,HD2: Managing Chronic (Long Te
+    | ,,,,,C01: Breast Cancer Screening,C02: Colorectal Cancer Screening,C03: Annual Flu Vaccine,C04: Monitoring Physical Activity,C05: Special Needs Plan (SNP) Care Management,C06: Care
+    | ,,,,,01/01/2022  12/31/2022,01/01/2022  12/31/2022,03/2023  06/2023,07/19/2022  11/01/2022,01/01/2022  12/31/2022,01/01/2022  12/31/2022,01/01/2022  12/31/2022,01/01/2022  
+
+- tables/2024 Star Ratings Data Table - Notes (Jul 2 2024).csv  (1 KB)
+    | "In light of recent court decisions, CMS has recalculated the 2024 Star Ratings to address the application of Tukey outlier deletion and guardrails as codified at 42 C.F.R. §§ 422.
+    | ,,,,,,,,
+    | ,,,,,,,,
+    | ,,,,,,,,
+
+- tables/2024 Star Ratings Data Table - Part C Cut Points (Jul 2 2024).csv  (4 KB)
+    | 2024 Part C Performance Metrics Threshold for Star Assignments,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | Number of Stars Displayed on the Plan Finder Tool,"HD1: Staying Healthy: Screenings, Tests and Vaccines",,,,HD2: Managing Chronic (Long Term) Conditions,,,,,,,,,,,,,,HD3: Member Ex
+    | ,C01: Breast Cancer Screening,C02: Colorectal Cancer Screening,C03: Annual Flu Vaccine,C04: Monitoring Physical Activity,C05: Special Needs Plan (SNP) Care Management,C06: Care for
+    | ,01/01/2022  12/31/2022,01/01/2022  12/31/2022,03/2023  06/2023,07/19/2022  11/01/2022,01/01/2022  12/31/2022,01/01/2022  12/31/2022,01/01/2022  12/31/2022,01/01/2022  12/3
+
+- tables/2024 Star Ratings Data Table - Part D Cut Points (Jul 2 2024).csv  (3 KB)
+    | 2024 Part D Performance Metrics Threshold for Star Assignments,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | Org Type,Number of Stars Displayed on the Plan Finder Tool,DD1: Drug Plan Customer Service,DD2: Member Complaints and Changes in the Drug Plans Performance,,,DD3: Member Experienc
+    | ,,D01: Call Center  Foreign Language Interpreter and TTY Availability,D02: Complaints about the Drug Plan,D03: Members Choosing to Leave the Plan,D04: Drug Plan Quality Improvemen
+    | ,,02/2023 05/2023,01/01/2022  12/31/2022,01/01/2022  12/31/2022,Not Applicable,03/2023  06/2023,03/2023  06/2023,01/01/2022  9/30/2022,01/01/2022  12/31/2022,01/01/2022  12
+
+- tables/2024 Star Ratings Data Table - Summary Rating (Jul 2 2024).csv  (154 KB)
+    | 2024 Summary Star View: Medicare Report Card Master Table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | Contract Number,Organization Type,Contract Name,Organization Marketing Name,Parent Organization,SNP,2021 Disaster %,2022 Disaster %,2024 Part C Summary,2024 Part D Summary,2024 Ove
+    | E3014 ,Employer/Union Only Direct Contract PDP ,PSERS HOP PROGRAM ,Pennsylvania Public School Employees Retirement Sy ,Commonwealth of PA Pub Schools Retirement System ,No ,1,3,Not
+    | H0022 ,Demo ,"BUCKEYE COMMUNITY HEALTH PLAN, INC. ",Buckeye Health Plan - MyCare Ohio ,Centene Corporation ,No ,0,0,Not Applicable ,Not enough data available ,Not enough data avail
+
+- tables/2024_Report_Card_Master_Table_2024_07_02.xlsx  (567 KB)
+    sheets: ['Notes', 'Measure_Data', 'Measure_Stars', 'Domain_Stars', 'Summary_Rating', 'CAI', 'Disenrollment Reasons', 'Low_Performing_Contracts', 'High_Performing_Contracts', 'Part_C_Cut_Points', 'Part_D_Cut_Points']
+
+- tables/PQA_Medication_List_ADH_YOS2022_Mar_2023.xlsx  (1,376 KB)
+    sheets: ['Measure List', 'Diabetes', 'Insulins', 'RASA', 'Sacubitril_Valsartan', 'Statins', 'Diabetes Medications', 'RASA Medications', 'Statin Medications', 'Exclusion ICD-10 Codes']
+
+- tables/PQA_Medication_List_SUPD_YOS2022_Mar_2023.xlsx  (827 KB)
+    sheets: ['Measure List', 'Antidiabetics', 'Statins', 'Fertility', 'Drug Classes', 'Exclusion ICD-10 Codes']
+
+##### 2025 #####
+
+- 2025_technical_notes.pdf  (3,067 KB)
+
+- tables/2025 Star Ratings Data Table - CAI (Dec 2 2024).csv  (113 KB)
+    | 2025 CAI View: Medicare Report Card Master Table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | Contract Number,Organization Marketing Name,Contract Name,Parent Organization,Puerto Rico Only,Part C FAC,Part D MA-PD FAC,Part D PDP FAC,Overall FAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | E3014 ,Pennsylvania Public School Employees Retirement Sy ,PSERS HOP PROGRAM ,Commonwealth of PA Pub Schools Retirement System ,No ,N/A ,N/A ,1,N/A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | H0028 ,Humana ,"CHA HMO, INC. ",Humana Inc. ,No ,4,3,N/A ,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+- tables/2025 Star Ratings Data Table - Disenrollment Reasons (Dec 2 2024).csv  (112 KB)
+    | 2025 Disenrollment Reasons View: Medicare Report Card Master Table,,,,,,,,
+    | Contract Number,Organization Marketing Name,Contract Name,Parent Organization,Problems Getting the Plan to Provide and Pay for Needed Care,Problems with Coverage of Doctors and Hos
+    | E3014 ,Pennsylvania Public School Employees Retirement Sy ,PSERS HOP PROGRAM ,Commonwealth of PA Pub Schools Retirement System ,Not Applicable ,Not Applicable ,Not Available ,Not A
+    | H0028 ,Humana ,"CHA HMO, INC. ",Humana Inc. ,15%,26%,10%,10%,14%
+
+- tables/2025 Star Ratings Data Table - Domain Stars (Dec 2 2024).csv  (183 KB)
+    | 2025 Domain Star View: Medicare Report Card Master Table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | Contract Number,Organization Type,Contract Name,Organization Marketing Name,Parent Organization,"HD1: Staying Healthy: Screenings, Tests and Vaccines",HD2: Managing Chronic (Long T
+    | E3014 ,Employer/Union Only Direct Contract PDP ,PSERS HOP PROGRAM ,Pennsylvania Public School Employees Retirement Sy ,Commonwealth of PA Pub Schools Retirement System ,Plan not re
+    | H0022 ,Demo ,"BUCKEYE COMMUNITY HEALTH PLAN, INC. ",Buckeye Health Plan - MyCare Ohio ,Centene Corporation ,Not enough data available ,Not enough data available ,Not enough data av
+
+- tables/2025 Star Ratings Data Table - High Performing Contracts (Dec 2 2024).csv  (2 KB)
+    | 2025 High Performing Contracts: Medicare Report Card Master Table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | Contract Number,Organization Type,Contract Name,Organization Marketing Name,Parent Organization,Rated As,Highest Rating,Rating,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | H0710 ,Local CCP ,CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO. ,UnitedHealthcare ,"UnitedHealth Group, Inc. ",MA-PD ,Overall ,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | H3957 ,Local CCP ,HIGHMARK CHOICE COMPANY ,Highmark Blue Cross Blue Shield or Highmark Blue S ,Highmark Health ,MA-PD ,Overall ,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+- tables/2025 Star Ratings Data Table - Low Performing Contracts (Dec 2 2024).csv  (1 KB)
+    | 2025 Low Performing Contracts: Medicare Report Card Master Table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | Contract Number,Organization Type,Contract Name,Organization Marketing Name,Parent Organization,Rated As,2023 C Summary,2023 D Summary,2024 C Summary,2024 D Summary,2025 C Summary,
+    | H0724 ,Local CCP ,"BUCKEYE HEALTH PLAN COMMUNITY SOLUTIONS, Inc. ",Wellcare by Allwell ,Centene Corporation ,MA-PD ,3,2.5,2.5,2.5,2.5,3.5,Part C or D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | H2853 ,Local CCP ,CENTENE VENTURE COMPANY TENNESSEE ,Ascension Complete ,Centene Corporation ,MA-PD ,Not enough data available ,2.5,2.5,3.5,. ,2.5,Part C or D,,,,,,,,,,,,,,,,,,,,,,
+
+- tables/2025 Star Ratings Data Table - Measure Data (Dec 2 2024).csv  (545 KB)
+    | 2025 Data View: Medicare Report Card Master Table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | CONTRACT_ID,Organization Type,Contract Name,Organization Marketing Name,Parent Organization,"HD1: Staying Healthy: Screenings, Tests and Vaccines",,,,HD2: Managing Chronic (Long Te
+    | ,,,,,C01: Breast Cancer Screening,C02: Colorectal Cancer Screening,C03: Annual Flu Vaccine,C04: Monitoring Physical Activity,C05: Special Needs Plan (SNP) Care Management,C06: Care
+    | ,,,,,01/01/2023  12/31/2023,01/01/2023  12/31/2023,03/2024  06/2024,07/17/2023  11/01/2023,01/01/2023  12/31/2023,01/01/2023  12/31/2023,01/01/2023  12/31/2023,01/01/2023  
+
+- tables/2025 Star Ratings Data Table - Measure Stars (Dec 2 2024).csv  (462 KB)
+    | 2025 Star View: Medicare Report Card Master Table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | CONTRACT_ID,Organization Type,Contract Name,Organization Marketing Name,Parent Organization,"HD1: Staying Healthy: Screenings, Tests and Vaccines",,,,HD2: Managing Chronic (Long Te
+    | ,,,,,C01: Breast Cancer Screening,C02: Colorectal Cancer Screening,C03: Annual Flu Vaccine,C04: Monitoring Physical Activity,C05: Special Needs Plan (SNP) Care Management,C06: Care
+    | ,,,,,01/01/2023  12/31/2023,01/01/2023  12/31/2023,03/2024  06/2024,07/17/2023  11/01/2023,01/01/2023  12/31/2023,01/01/2023  12/31/2023,01/01/2023  12/31/2023,01/01/2023  
+
+- tables/2025 Star Ratings Data Table - Part C Cut Points (Dec 2 2024).csv  (4 KB)
+    | 2025 Part C Performance Metrics Threshold for Star Assignments,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | Number of Stars Displayed on the Plan Finder Tool,"HD1: Staying Healthy: Screenings, Tests and Vaccines",,,,HD2: Managing Chronic (Long Term) Conditions,,,,,,,,,,,,,,HD3: Member Ex
+    | ,C01: Breast Cancer Screening,C02: Colorectal Cancer Screening,C03: Annual Flu Vaccine,C04: Monitoring Physical Activity,C05: Special Needs Plan (SNP) Care Management,C06: Care for
+    | ,01/01/2023  12/31/2023,01/01/2023  12/31/2023,03/2024  06/2024,07/17/2023  11/01/2023,01/01/2023  12/31/2023,01/01/2023  12/31/2023,01/01/2023  12/31/2023,01/01/2023  12/3
+
+- tables/2025 Star Ratings Data Table - Part D Cut Points (Dec 2 2024).csv  (3 KB)
+    | 2025 Part D Performance Metrics Threshold for Star Assignments,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | Org Type,Number of Stars Displayed on the Plan Finder Tool,DD1: Drug Plan Customer Service,DD2: Member Complaints and Changes in the Drug Plans Performance,,,DD3: Member Experienc
+    | ,,D01: Call Center  Foreign Language Interpreter and TTY Availability,D02: Complaints about the Drug Plan,D03: Members Choosing to Leave the Plan,D04: Drug Plan Quality Improvemen
+    | ,,02/2024  05/2024,01/01/2023  12/31/2023,01/01/2023  12/31/2023,Not Applicable,03/2024  06/2024,03/2024  06/2024,01/01/2023  9/30/2023,01/01/2023  12/31/2023,01/01/2023  1
+
+- tables/2025 Star Ratings Data Table - Summary Ratings (Dec 2 2024).csv  (140 KB)
+    | 2025 Summary Star View: Medicare Report Card Master Table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | Contract Number,Organization Type,Contract Name,Organization Marketing Name,Parent Organization,SNP,2022 Disaster %,2023 Disaster %,2025 Part C Summary,2025 Part D Summary,2025 Ove
+    | E3014 ,Employer/Union Only Direct Contract PDP ,PSERS HOP PROGRAM ,Pennsylvania Public School Employees Retirement Sy ,Commonwealth of PA Pub Schools Retirement System ,No ,3,1,Not
+    | H0022 ,Demo ,"BUCKEYE COMMUNITY HEALTH PLAN, INC. ",Buckeye Health Plan - MyCare Ohio ,Centene Corporation ,No ,0,0,Not Applicable ,Not enough data available ,Not enough data avail
+
+- tables/2025_Report_Card_Master_Table_2024_12_02.xlsx  (522 KB)
+    sheets: ['Measure_Data', 'Measure_Stars', 'Domain_Stars', 'Summary_Rating', 'CAI', 'Disenrollment Reasons', 'Low_Performing_Contracts', 'High_Performing_Contracts', 'Part_C_Cut_Points', 'Part_D_Cut_Points']
+
+- tables/PQA_Value_Sets_ADH_YOS2023_Mar_2024.xlsx  (1,325 KB)
+    sheets: ['Summary', 'NDC Diabetes', 'NDC Insulins', 'NDC RASA', 'NDC Sacubitril_Valsartan', 'NDC Statins', 'Diabetes Medication Tables', 'RASA Medication Tables', 'Statins Medication Tables', 'ICD-10 Value Sets']
+
+- tables/PQA_Value_Sets_SUPD_YOS2023_Mar_2024.xlsx  (826 KB)
+    sheets: ['Summary', 'NDC Antidiabetics', 'NDC Statins', 'NDC Fertility', 'Medication Tables', 'ICD-10 Value Sets']
+
+##### 2026 #####
+
+- 2026_technical_notes.pdf  (4,800 KB)
+
+- tables/2026 Star Ratings Data Table - CAI (Oct 8 2025).csv  (83 KB)
+    | ï»¿2026 CAI View: Medicare Report Card Master Table,,,,,,,,
+    | Contract Number,Organization Marketing Name,Contract Name,Parent Organization,Puerto Rico Only,Part C FAC,Part D MA-PD FAC,Part D PDP FAC,Overall FAC
+    | E3014 ,Pennsylvania Public School Employees Retirement Sy ,PSERS HOP PROGRAM ,Commonwealth of PA Pub Schools Retirement System ,No ,N/A ,N/A ,1,N/A
+    | H0028 ,Humana ,"CHA HMO, INC. ",Humana Inc. ,No ,4,3,N/A ,4
+
+- tables/2026 Star Ratings Data Table - Disenrollment Reasons (Oct 8 2025).csv  (117 KB)
+    | ï»¿2026 Disenrollment Reasons View: Medicare Report Card Master Table,,,,,,,,
+    | Contract Number,Organization Marketing Name,Contract Name,Parent Organization,Problems Getting the Plan to Provide and Pay for Needed Care,Problems with Coverage of Doctors and Hos
+    | E3014 ,Pennsylvania Public School Employees Retirement Sy ,PSERS HOP PROGRAM ,Commonwealth of PA Pub Schools Retirement System ,Not Applicable ,Not Applicable ,Not Available ,Not A
+    | H0028 ,Humana ,"CHA HMO, INC. ",Humana Inc. ,15%,20%,13%,Not Available ,12%
+
+- tables/2026 Star Ratings Data Table - Domain Stars (Oct 8 2025).csv  (150 KB)
+    | ï»¿2026 Domain Star View: Medicare Report Card Master Table,,,,,,,,,,,,,
+    | Contract Number,Organization Type,Contract Name,Organization Marketing Name,Parent Organization,"HD1: Staying Healthy: Screenings, Tests and Vaccines",HD2: Managing Chronic (Long T
+    | E3014 ,Employer/Union Only Direct Contract PDP ,PSERS HOP PROGRAM ,Pennsylvania Public School Employees Retirement Sy ,Commonwealth of PA Pub Schools Retirement System ,Plan not re
+    | H0028 ,Local CCP ,"CHA HMO, INC. ",Humana ,Humana Inc. ,4,4,3,3,4,5,3,3,3
+
+- tables/2026 Star Ratings Data Table - High Performing Contracts (Oct 8 2025).csv  (3 KB)
+    | ï»¿2026 High Performing Contracts: Medicare Report Card Master Table,,,,,,,
+    | Contract Number,Organization Type,Contract Name,Organization Marketing Name,Parent Organization,Rated As,Highest Rating,Rating
+    | H1290 ,Local CCP ,"DEVOTED HEALTH PLAN OF FLORIDA, INC. ",Devoted Health ,"Devoted Health, Inc. ",MA-PD ,Overall ,5
+    | H1651 ,1876 Cost ,"MEDICAL ASSOCIATES HEALTH PLAN, INC. ","Medical Associates Health Plan, Inc. ","Medical Associates Clinic, P.C. ",MA-Only ,Part C Summary ,5
+
+- tables/2026 Star Ratings Data Table - Low Performing Contracts (Oct 8 2025).csv  (1 KB)
+    | ï»¿2026 Low Performing Contracts: Medicare Report Card Master Table,,,,,,,,,,,,
+    | Contract Number,Organization Type,Contract Name,Organization Marketing Name,Parent Organization,Rated As,2024 C Summary,2024 D Summary,2025 C Summary,2025 D Summary,2026 C Summary,
+    | H4982 ,Local CCP ,AETNA BETTER HEALTH OF CALIFORNIA INC. ,Aetna Medicare ,CVS Health Corporation ,MA-PD ,2.5,3.5,2.5,3,3,2.5,Part C or D
+    | H5965 ,Local CCP ,WELLCARE HEALTH INSURANCE COMPANY OF WASHINGTON ,Wellcare ,Centene Corporation ,MA-PD ,Not enough data available ,2.5,2,3,2.5,3,Part C or D
+
+- tables/2026 Star Ratings Data Table - Measure Data (Oct 8 2025).csv  (577 KB)
+    | ï»¿2026 Data View: Medicare Report Card Master Table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | CONTRACT_ID,Organization Type,Contract Name,Organization Marketing Name,Parent Organization,"HD1: Staying Healthy: Screenings, Tests and Vaccines",,,,,,HD2: Managing Chronic (Long 
+    | ,,,,,C01: Breast Cancer Screening,C02: Colorectal Cancer Screening,C03: Annual Flu Vaccine,C04: Improving or Maintaining Physical Health,C05: Improving or Maintaining Mental Health
+    | ,,,,,01/01/2024 â 12/31/2024,01/01/2024 â 12/31/2024,03/2025 â 05/2025,07/17/2024 â 11/01/2024,07/17/2024 â 11/01/2024,07/17/2024 â 11/01/2024,01/01/2024 â 12/31/2024
+
+- tables/2026 Star Ratings Data Table - Measure Stars (Oct 8 2025).csv  (487 KB)
+    | ï»¿2026 Star View: Medicare Report Card Master Table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | CONTRACT_ID,Organization Type,Contract Name,Organization Marketing Name,Parent Organization,"HD1: Staying Healthy: Screenings, Tests and Vaccines",,,,,,HD2: Managing Chronic (Long 
+    | ,,,,,C01: Breast Cancer Screening,C02: Colorectal Cancer Screening,C03: Annual Flu Vaccine,C04: Improving or Maintaining Physical Health,C05: Improving or Maintaining Mental Health
+    | ,,,,,01/01/2024 â 12/31/2024,01/01/2024 â 12/31/2024,03/2025 â 05/2025,07/17/2024 â 11/01/2024,07/17/2024 â 11/01/2024,07/17/2024 â 11/01/2024,01/01/2024 â 12/31/2024
+
+- tables/2026 Star Ratings Data Table - Part C Cut Points (Oct 8 2025).csv  (5 KB)
+    | ï»¿2026 Part C Performance Metrics Threshold for Star Assignments,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    | Number of Stars Displayed on the Plan Finder Tool,"HD1: Staying Healthy: Screenings, Tests and Vaccines",,,,,,HD2: Managing Chronic (Long Term) Conditions,,,,,,,,,,,,,,,HD3: Member
+    | ,C01: Breast Cancer Screening,C02: Colorectal Cancer Screening,C03: Annual Flu Vaccine,C04: Improving or Maintaining Physical Health,C05: Improving or Maintaining Mental Health,C06
+    | ,01/01/2024 â 12/31/2024,01/01/2024 â 12/31/2024,03/2025 â 05/2025,07/17/2024 â 11/01/2024,07/17/2024 â 11/01/2024,07/17/2024 â 11/01/2024,01/01/2024 â 12/31/2024,01/
+
+- tables/2026 Star Ratings Data Table - Part D Cut Points (Oct 8 2025).csv  (3 KB)
+    | ï»¿2026 Part D Performance Metrics Threshold for Star Assignments,,,,,,,,,,,,,
+    | Org Type,Number of Stars Displayed on the Plan Finder Tool,DD1: Drug Plan Customer Service,DD2: Member Complaints and Changes in the Drug Planâs Performance,,,DD3: Member Experie
+    | ,,D01: Call Center â Foreign Language Interpreter and TTY Availability,D02: Complaints about the Drug Plan,D03: Members Choosing to Leave the Plan,D04: Drug Plan Quality Improvem
+    | ,,02/2025 â 05/2025,01/01/2024 â 12/31/2024,01/01/2024 â 12/31/2024,Not Applicable,03/2025 â 05/2025,03/2025 â 05/2025,01/01/2024 â 9/30/2024,01/01/2024 â 12/31/2024,
+
+- tables/2026 Star Ratings Data Table - Summary Ratings (July 22 2026).xlsx  (65 KB)
+    sheets: ['Summary_Rating']
+
+- tables/2026_Report_Card_Master_Table_2026_07_22.xlsx  (530 KB)
+    sheets: ['Measure_Data', 'Measure_Stars', 'Domain_Stars', 'Summary_Rating', 'CAI', 'Disenrollment Reasons', 'Low_Performing_Contracts', 'High_Performing_Contracts', 'Part_C_Cut_Points', 'Part_D_Cut_Points']
+
+- tables/PQA_Value_Sets_ADH_YOS2024_Apr_2025.xlsx  (1,312 KB)
+    sheets: ['Summary', 'NDC Diabetes', 'NDC Insulins', 'NDC RASA', 'NDC Sacubitril_Valsartan', 'NDC Statins', 'Diabetes Medication Tables', 'RASA Medication Tables', 'Statins Medication Tables', 'ICD-10 Value Sets']
+
+- tables/PQA_Value_Sets_SUPD_YOS2024_Apr_2025.xlsx  (823 KB)
+    sheets: ['Summary', 'NDC Antidiabetics', 'NDC Statins', 'NDC Fertility', 'Medication Tables', 'ICD-10 Value Sets']

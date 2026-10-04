@@ -1,0 +1,3 @@
+model,valid_json,measure_id,weighting_value,weighting_category,general_trend,improvement_measure,cai_usage,case_mix_adjusted,all_fields_correct_%,fields_without_reference,median_latency_s,sections
+gemma3:4b,100.0,100.0,100.0,99.2,100.0,100.0,100.0,100.0,99.2,3,3.67,129
+llama3.2,100.0,100.0,100.0,99.2,100.0,96.1,100.0,100.0,95.3,3,2.4,129

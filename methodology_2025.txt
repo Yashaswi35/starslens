@@ -1,0 +1,855 @@
+
+========================= PDF PAGE 17  (matched: Reward Factor) =========================
+• Affected contracts with missing data:
+If an affected contract has missing data in either the current or previous year (e.g., because of a
+o
+data integrity issue, it is too new, or it is too small), the final measure rating comes from the
+current year. Missing data includes data where there is a data integrity issue.
+• Reward Factor:
+Affected contracts with 60% or more of their enrollees impacted by a 2023 disaster are excluded
+o
+from the determination of the performance summary and variance thresholds for the Reward
+Factor.
+• Cut points:
+Clustering Methodology: For all measures that use the clustering methodology for cut point
+o
+generation, the measure scores for contracts with 60% or more of their enrollment affected by a
+disaster are excluded from creating those cut points.
+Methodology for Assigning Stars to the Part C and Part D Measures
+CMS assigns stars for each numeric measure score by applying one of two methods: clustering, or relative
+distribution and significance testing. Each method is described below. Attachment K explains the clustering and
+relative distribution and significance testing (used for CAHPS measures) methods in greater detail.
+A. Clustering
+This method is applied to the majority of the Star Ratings measures, ranging from operational and process-
+based measures, to HEDIS and other clinical care measures. Using this method, the Star Rating for each
+measure is determined by applying a clustering algorithm to the measure’s numeric value scores from all
+contracts. Conceptually, the clustering algorithm identifies the “gaps” among the scores and creates four cut
+points resulting in the creation of five levels (one for each Star Rating). The scores in the same Star Rating level
+are as similar as possible; the scores in different Star Rating levels are as different as possible. Star Rating levels
+1 through 5 are assigned with 1 being the worst and 5 being the best.
+Technically, the variance in measure scores is separated into within-cluster and between-cluster sum of squares
+components. The clusters reflect the groupings of numeric value scores that minimize the variance of scores
+within the clusters. The Star Ratings levels are assigned to the clusters that minimize the within-cluster sum of
+squares. The cut points for star assignments are derived from the range of measure scores per cluster, and the
+star levels associated with each cluster are determined by ordering the means of the clusters.
+Tukey outlier deletion is used to determine the cut points for all non-CAHPS measures. Tukey outlier deletion
+involves removing Tukey outer fence outlier contract scores, those defined as measure-specific scores outside
+the bounds of 3.0 times the measure-specific interquartile range subtracted from the 1st quartile or added to the
+3rd quartile. Outliers are removed prior to applying mean resampling within the hierarchical clustering
+algorithm.
+Mean resampling is used to determine the cut points for all non-CAHPS measures. With mean resampling,
+measure-specific scores for the current year’s Star Ratings are randomly separated into 10 equal-sized groups.
+The hierarchal clustering algorithm is then applied 10 times, each time leaving one of the 10 groups out of the
+clustered data. The method results in 10 sets of measure-specific cut points. The mean for each 1 through 5
+star level cut point is taken across the 10 sets for each measure to produce the final cut points.
+(Last Updated 10/03/2024) Page 9
+
+========================= PDF PAGE 19  (matched: METHODOLOGY FOR CALCULATING PART C AND PART D SUMMARY) =========================
+Table 5: Minimum Number of Rated Measures Required for a Domain Rating by Contract Type
+1876 CCP CCP CCP with
+Part Domain Name (Identifier) Cost † w/o SNP with SNP Only I-SNP MSA PDP PFFS
+Staying Healthy: Screenings,
+C Tests and Vaccines (HD1) 3 of 4 3 of 4 3 of 4 2 of 2 3 of 4 N/A 3 of 4
+Managing Chronic (Long
+C Term) Conditions (HD2) 5 of 8 6 of 11 8 of 14 6 of 10 6 of 11 N/A 6 of 11
+Member Experience with
+C Health Plan (HD3) 4 of 6 4 of 6 4 of 6 N/A 4 of 6 N/A 4 of 6
+Member Complaints and
+Changes in the Health Plan's
+C Performance (HD4) 2 of 3 2 of 3 2 of 3 2 of 3 2 of 3 N/A 2 of 3
+Health Plan Customer
+C Service (HD5) 2 of 2 2 of 3 2 of 3 2 of 3 2 of 2 N/A 2 of 3
+Drug Plan Customer Service
+D (DD1) N/A* 1 of 1 1 of 1 1 of 1 N/A 1 of 1 1 of 1*
+Member Complaints and
+Changes in the Drug Plan’s
+D Performance (DD2) 2 of 3* 2 of 3 2 of 3 2 of 3 N/A 2 of 3 2 of 3*
+Member Experience with the
+D Drug Plan (DD3) 2 of 2* 2 of 2 2 of 2 N/A N/A 2 of 2 2 of 2*
+Drug Safety and Accuracy of
+D Drug Pricing (DD4) 4 of 6* 4 of 6 4 of 6 4 of 6 N/A 4 of 6 4 of 6*
+* Note: Does not apply to MA-Only, 1876 Cost, and PFFS contracts which do not offer drug benefits.
+† Note: 1876 Cost contracts that offer drug benefits and which do not submit data for the MPF measure must have a rating in 3 out of 5
+Drug Safety and Accuracy of Drug Pricing (DD4) measures to receive a rating in that domain.
+Summary and Overall Ratings: Weighting of Measures
+The summary and overall ratings are calculated as weighted averages of the measure stars. For the 2025 Star
+Ratings, CMS assigns the highest weight to the improvement measures, followed by patient
+experience/complaints and access measures, then by outcome and intermediate outcome measures, and finally
+process measures. New measures included in the Star Ratings are given a weight of 1 for their first year of
+inclusion in the ratings; in subsequent years the weight associated with the measure weighting category is used.
+The weights assigned to each measure and their weighting category are shown in Attachment G.
+In calculating the summary and overall ratings, a measure given a weight of 3 counts three times as much as a
+measure given a weight of 1. For any given contract, any measure without a rating is not included in the
+calculation. The first step in the calculation is to multiply each measure’s weight by the measure’s rating and
+sum these results. The second step is to divide this sum by the sum of the weights of the contract’s rated
+measures. For the summary and overall ratings, half stars are assigned to allow for more variation across
+contracts.
+Methodology for Calculating Part C and Part D Summary Ratings
+The Part C and Part D summary ratings are calculated by taking a weighted average of the measure stars for
+Parts C and D, respectively. To receive a Part C and/or Part D summary rating, a contract must meet the
+minimum number of rated measures. The Parts C and D improvement measures are not included in the count of
+the minimum number of rated measures. The minimum number of rated measures required is determined as
+follows:
+(Last Updated 10/03/2024) Page 11
+--- table ---
+ |  | 1876 | CCP | CCP | CCP with |  |  | 
+Part | Domain Name (Identifier) | Cost † | w/o SNP | with SNP | Only I-SNP | MSA | PDP | PFFS
+C | Staying Healthy: Screenings, Tests and Vaccines (HD1) | 3 of 4 | 3 of 4 | 3 of 4 | 2 of 2 | 3 of 4 | N/A | 3 of 4
+ | Managing Chronic (Long |  |  |  |  |  |  | 
+C | Term) Conditions (HD2) | 5 of 8 | 6 of 11 | 8 of 14 | 6 of 10 | 6 of 11 | N/A | 6 of 11
+C | Member Experience with Health Plan (HD3) | 4 of 6 | 4 of 6 | 4 of 6 | N/A | 4 of 6 | N/A | 4 of 6
+ | Member Complaints and |  |  |  |  |  |  | 
+ | Changes in the Health Plan's |  |  |  |  |  |  | 
+C | Performance (HD4) | 2 of 3 | 2 of 3 | 2 of 3 | 2 of 3 | 2 of 3 | N/A | 2 of 3
+C | Health Plan Customer Service (HD5) | 2 of 2 | 2 of 3 | 2 of 3 | 2 of 3 | 2 of 2 | N/A | 2 of 3
+ | Drug Plan Customer Service |  |  |  |  |  |  | 
+D | (DD1) | N/A* | 1 of 1 | 1 of 1 | 1 of 1 | N/A | 1 of 1 | 1 of 1*
+D | Member Complaints and Changes in the Drug Plan’s Performance (DD2) | 2 of 3* | 2 of 3 | 2 of 3 | 2 of 3 | N/A | 2 of 3 | 2 of 3*
+ | Member Experience with the |  |  |  |  |  |  | 
+D | Drug Plan (DD3) | 2 of 2* | 2 of 2 | 2 of 2 | N/A | N/A | 2 of 2 | 2 of 2*
+D | Drug Safety and Accuracy of Drug Pricing (DD4) | 4 of 6* | 4 of 6 | 4 of 6 | 4 of 6 | N/A | 4 of 6 | 4 of 6*
+
+========================= PDF PAGE 20  (matched: METHODOLOGY FOR CALCULATING THE OVERALL) =========================
+• If the total number of measures required for the organization type is odd, divide the number by two and
+round it to a whole number.
+Example: if there are 13 required Part D measures for the organization, 13 / 2 = 6.5, when
+o
+rounded the result is 7. The contract needs at least 7 measures with ratings out of the 13 total
+measures to receive a Part D summary rating.
+• If the total number of measures required for the organization type is even, divide the number of
+measures by two.
+Example: if there are 30 required Part C measures for the organization, 30 / 2 = 15. The contract
+o
+needs at least 15 measures with ratings out of the 30 total measures to receive a Part C summary
+rating.
+Table 6 shows the minimum number of rated measures required by each contract type to receive a summary
+rating.
+Table 6: Minimum Number of Rated Measures Required for Part C and Part D Ratings by Contract Type
+Rating 1876 Cost † CCP w/o SNP CCP with SNP CCP with Only I-SNP MSA PDP PFFS
+Part C summary 11 of 22 13 of 26 15 of 29 9 of 17 13 of 25 N/A 13 of 26
+Part D summary 5 of 10* 6 of 11 6 of 11 5 of 9 N/A 6 of 11 6 of 11*
+* Note: Does not apply to MA-Only, 1876 Cost, and PFFS contracts which do not offer drug benefits.
+† Note: 1876 Cost contracts which do not submit data for the MPF measure must have ratings in 5 out of 9measures to receive a Part
+D rating.
+Methodology for Calculating the Overall MA-PD Rating
+For MA-PDs to receive an overall rating, the contract must have stars assigned to both the Part C and Part D
+summary ratings. If an MA-PD contract has only one of the two required summary ratings, the overall rating
+will show as “Not enough data available.”
+The overall rating for a MA-PD contract is calculated using a weighted average of the Part C and Part D
+measure stars. The weights assigned to each measure are shown in Attachment G.
+There are a total of 42 measures (30 in Part C, 12 in Part D) in the 2025 Star Ratings. The following two
+measures are contained in both the Part C and D measure lists:
+• Complaints about the Health/Drug Plan (CTM)
+• Members Choosing to Leave the Plan (MCLP)
+These measures share the same data source, so CMS includes only one instance of each of these two measures
+in the calculation of the overall rating. In addition, the Part C and D improvement measures are not included in
+the count for the minimum number of measures. Therefore, a total of 38 distinct measures plus the two
+improvement measures are used in the calculation of the overall rating.
+The minimum number of rated measures required for an overall MA-PD rating is determined using the same
+methodology as for the Part C and D summary ratings. Table 7 provides the minimum number of rated
+measures required for an overall Star Rating by contract type.
+(Last Updated 10/03/2024) Page 12
+--- table ---
+Rating | 1876 Cost † | CCP w/o SNP | CCP with SNP | CCP with Only I-SNP | MSA | PDP | PFFS
+Part C summary | 11 of 22 | 13 of 26 | 15 of 29 | 9 of 17 | 13 of 25 | N/A | 13 of 26
+Part D summary | 5 of 10* | 6 of 11 | 6 of 11 | 5 of 9 | N/A | 6 of 11 | 6 of 11*
+
+========================= PDF PAGE 21  (matched: COMPLETING THE SUMMARY AND OVERALL, APPLYING THE IMPROVEMENT MEASURE, APPLYING THE REWARD FACTOR, Reward Factor, Rounding Rules for Summary and Overall) =========================
+Table 7: Minimum Number of Rated Measures Required for an Overall Rating by Contract Type
+Rating 1876 Cost † CCP w/o SNP CCP with SNP CCP with Only I-SNP MSA PDP PFFS
+Overall Rating 15 of 30* 18 of 35 19 of 38 12 of 24 N/A N/A 18 of 35*
+* Note: Does not apply to MA-Only, 1876 Cost, and PFFS contracts which do not offer drug benefits.
+† Note: 1876 Cost contracts which do not submit data for the MPF measure must have ratings in 15 out of 29 measures to receive an
+overall rating.
+The overall and summary Star Ratings are calculated based on the measures required to be collected and
+reported for the contract type being offered for the Star Ratings year. For example, the 2025 Star Ratings are
+calculated for the 2025 contract year using data primarily from measurement year 2023. If a contract offered a
+SNP PBP in measurement year 2023, but is no longer offering a SNP PBP for the 2025 contract year, the 2025
+Star Ratings exclude the SNP-only measures and the contract is rated as ‘‘Coordinated Care Plan without
+SNP.’’
+Completing the Summary and Overall Rating Calculations
+There are two adjustments made to the results of the summary and overall calculations described above. First,
+to reward consistently high performance, CMS utilizes both the mean and the variance of the measure stars to
+differentiate contracts for the summary and overall ratings. If a contract has both high and stable relative
+performance, a reward factor is added to the contract’s ratings. Details about the reward factor can be found in
+the section entitled “Applying the Reward Factor.” Second, the summary and overall ratings include a
+Categorical Adjustment Index (CAI) factor, which is added to or subtracted from a contract’s summary and
+overall ratings. Details about the CAI can be found in the section entitled “Categorical Adjustment Index
+(CAI).”
+The summary and overall rating calculations are run twice, once including the improvement measures and once
+without including the improvement measures. Based on a comparison of the results of these two calculations a
+decision is made as to whether the improvement measures are to be included in calculating a contract’s final
+summary and overall ratings. Details about the application of the improvement measures can be found in the
+section entitled “Applying the Improvement Measure(s).”
+Lastly, standard rounding rules are applied to convert the results of the final summary and overall ratings
+calculations into the publicly reported Star Ratings. Details about the rounding rules are presented in the section
+“Rounding Rules for Summary and Overall Ratings.”
+Applying the Improvement Measure(s)
+The Part C Improvement Measure - Health Plan Quality Improvement (C27) and the Part D Improvement
+Measure - Drug Plan Quality Improvement (D04) were introduced earlier in this document in the section
+entitled “Improvement Measures.” The measures and formulas for the improvement measures can be found in
+Attachment I. This section discusses whether and how to apply the improvement measures in calculating a
+contract’s final summary and overall ratings.
+Since high performing contracts have less room for improvement and consequently may have lower ratings on
+these measure(s), CMS has developed the following rules to not penalize contracts receiving 4 or more stars for
+their highest rating.
+(Last Updated 10/03/2024) Page 13
+--- table ---
+Rating | 1876 Cost † | CCP w/o SNP | CCP with SNP | CCP with Only I-SNP | MSA | PDP | PFFS
+Overall Rating | 15 of 30* | 18 of 35 | 19 of 38 | 12 of 24 | N/A | N/A | 18 of 35*
+
+========================= PDF PAGE 22  (matched: APPLYING THE REWARD FACTOR, Reward Factor) =========================
+MA-PD Contracts
+1. There are separate Part C and Part D improvement measures (C27 & D04) for MA-PD contracts.
+a. C27 is used in calculating the Part C summary rating of an MA-PD contract.
+b. D04 is used in calculating the Part D summary rating for an MA-PD contract.
+c. Both improvement measures will be used when calculating the overall rating in step 3.
+2. Calculate the overall rating for MA-PD contracts without including either improvement measure.
+3. Calculate the overall rating for MA-PD contracts with both improvement measures included.
+4. If an MA-PD contract in step 2 has 4 or more stars, compare the two overall ratings. If the rating in step
+3 is less than the value in step 2, use the overall rating from step 2; otherwise use the result from step 3.
+5. For all other MA-PD contracts, use the overall rating from step 3.
+MA-Only Contracts
+1. Only the Part C improvement measure (C27) is used for MA-Only contracts.
+2. Calculate the Part C summary rating for MA-Only contracts without including the improvement
+measure.
+3. Calculate the Part C summary rating for MA-Only contracts with the Part C improvement measure.
+4. If an MA-Only contract in step 2 has 4 or more stars, compare the two Part C summary ratings. If the
+rating in step 3 is less than the value in step 2, use the Part C summary rating from step 2; otherwise use
+the result from step 3.
+5. For all other MA-Only contracts, use the Part C summary rating from step 3.
+PDP Contracts
+1. Only the Part D improvement measure (D04) is used for PDP contracts.
+2. Calculate the Part D summary rating for PDP contracts without including the improvement measure.
+3. Calculate the Part D summary rating for PDP contracts with the Part D improvement measure.
+4. If a PDP contract in step 2 has 4 or more stars, compare the two Part D summary ratings. If the rating in
+step 3 is less than the value in step 2, use the Part D summary rating from step 2; otherwise use the result
+from step 3.
+5. For all other PDP contracts, use the Part D summary rating from step 3.
+Applying the Reward Factor
+The following represents the steps taken to calculate and include the reward factor (r-Factor) in the Star Ratings
+summary and overall ratings. These calculations are performed both with and without the improvement
+measures included.
+• Calculate the mean and the variance of all of the individual quality and performance measure stars at the
+contract level.
+The mean is equal to the summary or overall rating before the reward factor is applied, which is
+o
+calculated as described in the section entitled “Weighting of Measures.”
+Using weights in the variance calculation accounts for the relative importance of measures in the
+o
+reward factor calculation. To incorporate the weights shown in Attachment G into the variance
+calculation of the available individual performance measures for a given contract, the steps are as
+follows:
+(Last Updated 10/03/2024) Page 14
+
+========================= PDF PAGE 23  (matched: Reward Factor) =========================
+• Subtract the summary or overall star from each performance measure’s star; square the
+results; and multiply each squared result by the corresponding individual performance
+measure weight.
+• Sum these results; call this ‘SUMWX.’
+• Set n equal to the number of individual performance measures available for the given
+contract.
+• Set W equal to the sum of the weights assigned to the n individual performance measures
+available for the given contract.
+• The weighted variance for the given contract is calculated as: n * SUMWX / (W * (n-1)).
+For the complete formula, please see Attachment H: Calculation of Weighted Star Rating
+and Variance Estimates.
+• Categorize the variance into three categories:
+low (0 to < 30th percentile),
+o
+medium (≥ 30th to < 70th percentile) and
+o
+high (≥ 70th percentile)
+o
+• Develop the reward factor as follows:
+r-Factor = 0.4 (for contract w/ low variance & high mean (mean ≥ 85th percentile))
+o
+r-Factor = 0.3 (for contract w/ medium variance & high mean (mean ≥ 85th percentile))
+o
+r-Factor = 0.2 (for contract w/ low variance & relatively high mean (mean ≥ 65th & < 85th
+o
+percentile))
+r-Factor = 0.1 (for contract w/ medium variance & relatively high mean (mean ≥ 65th & < 85th
+o
+percentile))
+r-Factor = 0.0 (for all other contracts)
+o
+Tables 8 and 9 show the final threshold values used in reward factor calculations for the 2025 Star Ratings.
+Table 8: Performance Summary Thresholds
+Improvement Percentile Part C Rating Part D Rating (MA-PD) Part D Rating (PDP) Overall Rating
+With 65th 3.703125 3.666667 3.535714 3.646465
+With 85th 4.014493 4.000000 4.035714 3.949495
+Without 65th 3.707692 3.718750 3.687500 3.662921
+Without 85th 4.044118 4.062500 4.173913 3.977528
+Table 9: Variance Thresholds
+Improvement Percentile Part C Rating Part D Rating (MA-PD) Part D Rating (PDP) Overall Rating
+With 30th 0.820452 0.742679 0.847865 0.828220
+With 70th 1.275376 1.268610 1.533170 1.240423
+Without 30th 0.807024 0.654297 0.717578 0.795388
+Without 70th 1.256410 1.210645 1.508203 1.216635
+Categorical Adjustment Index (CAI)
+CMS has implemented an analytical adjustment called the Categorical Adjustment Index (CAI). The CAI is a
+factor that is added to or subtracted from a contract’s Overall and/or Summary Star Ratings to adjust for the
+(Last Updated 10/03/2024) Page 15
+--- table ---
+Improvement | Percentile | Part C Rating | Part D Rating (MA-PD) | Part D Rating (PDP) | Overall Rating
+With | 65th | 3.703125 | 3.666667 | 3.535714 | 3.646465
+With | 85th | 4.014493 | 4.000000 | 4.035714 | 3.949495
+Without | 65th | 3.707692 | 3.718750 | 3.687500 | 3.662921
+Without | 85th | 4.044118 | 4.062500 | 4.173913 | 3.977528
+--- table ---
+Improvement | Percentile | Part C Rating | Part D Rating (MA-PD) | Part D Rating (PDP) | Overall Rating
+With | 30th | 0.820452 | 0.742679 | 0.847865 | 0.828220
+With | 70th | 1.275376 | 1.268610 | 1.533170 | 1.240423
+Without | 30th | 0.807024 | 0.654297 | 0.717578 | 0.795388
+Without | 70th | 1.256410 | 1.210645 | 1.508203 | 1.216635
+
+========================= PDF PAGE 26  (matched: Final Adjustment Categories and CAI Values) =========================
+Table 11: Categorization of Contract’s Members into Disability Quintiles for the Overall Rating
+Disability Quintile Percentage of Contract’s Beneficiaries who are Disabled
+1 0.000000 to less than 14.607385
+2 14.607385 to less than 21.923598
+3 21.923598 to less than 31.057866
+4 31.057866 to less than 44.050502
+5 44.050502 to 100.000000
+Table 12 provides the description of each of the final adjustment categories and the associated value of the CAI
+per category for the overall rating.
+Table 12: Final Adjustment Categories and CAI Values for the Overall Rating
+Final Adjustment Category LIS/DE Initial Group Disability Quintile CAI Value
+1 L1- L2 D1 -0.058127
+L1 D2
+2 L1- L2 D3 -0.033597
+L2-L3 D2
+L3 D1
+3 L4-L6 D1 -0.014802
+L4-L5 D2
+4 L1-L5 D4-D5 0.002506
+L3-L6 D3
+L6-L7 D2
+L7-L8 D1
+5 L6-L7 D4-D5 0.045230
+L7-L9 D3
+L8 D2
+L9-L10 D1-D2
+6 L8 D4-D5 0.064707
+L9-L10 D4
+L10 D3
+7 L9 D5 0.112056
+8 L10 D5 0.134761
+Tables 13 and 14 provide the range of the percentages that correspond to the LIS/DE initial groups and
+disability quintiles for the initial categories for the determination of the CAI values for the Part C summary.
+(Last Updated 10/03/2024) Page 18
+--- table ---
+Disability Quintile | Percentage of Contract’s Beneficiaries who are Disabled
+1 | 0.000000 to less than 14.607385
+ | 
+2 | 14.607385 to less than 21.923598
+3 | 21.923598 to less than 31.057866
+ | 
+4 | 31.057866 to less than 44.050502
+5 | 44.050502 to 100.000000
+--- table ---
+ | Final Adjustment Category |  |  | LIS/DE Initial Group |  |  | Disability Quintile |  |  | CAI Value | 
+1 |  |  | L1- L2 L1 |  |  | D1 D2 |  |  | -0.058127 |  | 
+ | 2 |  |  | L1- L2 |  |  | D3 |  |  | -0.033597 | 
+ |  |  |  | L2-L3 |  |  | D2 |  |  |  | 
+ |  |  |  | L3 |  |  | D1 |  |  |  | 
+3 |  |  | L4-L6 L4-L5 |  |  | D1 D2 |  |  | -0.014802 |  | 
+ | 4 |  |  | L1-L5 |  |  | D4-D5 |  |  | 0.002506 | 
+ |  |  |  | L3-L6 |  |  | D3 |  |  |  | 
+ |  |  |  | L6-L7 |  |  | D2 |  |  |  | 
+ |  |  |  | L7-L8 |  |  | D1 |  |  |  | 
+5 |  |  | L6-L7 L7-L9 L8 L9-L10 |  |  | D4-D5 D3 D2 D1-D2 |  |  | 0.045230 |  | 
+ | 6 |  |  | L8 |  |  | D4-D5 |  |  | 0.064707 | 
+ |  |  |  | L9-L10 |  |  | D4 |  |  |  | 
+ |  |  |  | L10 |  |  | D3 |  |  |  | 
+7 |  |  | L9 |  |  | D5 |  |  | 0.112056 |  | 
+ | 8 |  |  | L10 |  |  | D5 |  |  | 0.134761 | 
+
+========================= PDF PAGE 28  (matched: Final Adjustment Categories and CAI Values) =========================
+Table 15: Final Adjustment Categories and CAI Values for the Part C Summary
+Final
+LIS/DE Initial Disability
+Adjustment CAI Value
+Group Quintile
+Category
+1 L1 D1 -0.037897
+2 L2 D1 -0.025930
+L1-L2 D2-D3
+3 L3-L4 D1-D2 -0.013018
+4 L5-L8 D1 0.004257
+L5-L7 D2
+L3-L7 D3
+L1-L5 D4-D5
+5 L6-L7 D4-D5 0.023880
+6 L8 D2-D5 0.038923
+L9-10 D1-D2
+L9 D3
+7 L9 D4-D5 0.078480
+L10 D3-D4
+8 L10 D5 0.094759
+Tables 16 and 17 provide the range of the percentages that correspond to the LIS/DE initial groups and the
+disability quintiles for the initial categories for the determination of the CAI values for the Part D summary
+rating for MA-PDs.
+Table 16: Categorization of Contract’s Members into LIS/DE Initial Groups for the MA-PD Part D Summary
+Percentage of Contract’s Beneficiaries
+LIS/DE Initial Group who are LIS/DE
+1 0.000000 to less than 6.229975
+2 6.229975 to less than 9.567309
+3 9.567309 to less than 14.176508
+4 14.176508 to less than 19.916254
+5 19.916254 to less than 27.960199
+6 27.960199 to less than 40.979534
+7 40.979534 to less than 59.964116
+8 59.964116 to less than 91.207503
+9 91.207503 to less than 100.000000
+10 100.000000
+(Last Updated 10/03/2024) Page 20
+--- table ---
+ | Final |  | LIS/DE Initial Group |  |  | Disability Quintile |  |  | CAI Value |  | 
+ | Adjustment |  |  |  |  |  |  |  |  |  | 
+ | Category |  |  |  |  |  |  |  |  |  | 
+1 |  |  | L1 |  |  | D1 |  |  | -0.037897 |  | 
+ | 2 |  |  | L2 |  |  | D1 |  |  | -0.025930 | 
+ |  |  |  | L1-L2 |  |  | D2-D3 |  |  |  | 
+3 |  |  | L3-L4 |  |  | D1-D2 |  |  | -0.013018 |  | 
+ | 4 |  |  | L5-L8 |  |  | D1 |  |  | 0.004257 | 
+ |  |  |  | L5-L7 |  |  | D2 |  |  |  | 
+ |  |  |  | L3-L7 |  |  | D3 |  |  |  | 
+ |  |  |  | L1-L5 |  |  | D4-D5 |  |  |  | 
+5 |  |  | L6-L7 |  |  | D4-D5 |  |  | 0.023880 |  | 
+ | 6 |  |  | L8 |  |  | D2-D5 |  |  | 0.038923 | 
+ |  |  |  | L9-10 |  |  | D1-D2 |  |  |  | 
+ |  |  |  | L9 |  |  | D3 |  |  |  | 
+7 |  |  | L9 L10 |  |  | D4-D5 D3-D4 |  |  | 0.078480 |  | 
+ | 8 |  |  | L10 |  |  | D5 |  |  | 0.094759 | 
+--- table ---
+LIS/DE Initial
+Group
+--- table ---
+Disability
+Quintile
+--- table ---
+ | Percentage of Contract’s Beneficiaries
+LIS/DE Initial Group | who are LIS/DE
+1 | 0.000000 to less than 6.229975
+ | 
+2 | 6.229975 to less than 9.567309
+3 | 9.567309 to less than 14.176508
+ | 
+4 | 14.176508 to less than 19.916254
+5 | 19.916254 to less than 27.960199
+ | 
+6 | 27.960199 to less than 40.979534
+7 | 40.979534 to less than 59.964116
+ | 
+8 | 59.964116 to less than 91.207503
+9 | 91.207503 to less than 100.000000
+10 | 100.000000
+
+========================= PDF PAGE 29  (matched: Final Adjustment Categories and CAI Values) =========================
+Table 17: Categorization of Contract’s Members into Disability Quintiles for the MA-PD Part D Summary
+Percentage of Contract’s
+Disability Quintile Beneficiaries who are Disabled
+1 0.000000 to less than 14.987453
+2 14.987453 to less than 22.882693
+3 22.882693 to less than 32.500000
+4 32.500000 to less than 45.560408
+5 45.560408 to 100.000000
+Table 18 provides the description of each of the final adjustment categories for the MA-PD Part D summary and
+the associated values of the CAI for each final adjustment category.
+Table 18: Final Adjustment Categories and CAI Values for the MA-PD Part D Summary
+Final Adjustment LIS/DE Initial Disability
+Category Group Quintile CAI Value
+1 L1-L4 D1 -0.048532
+L1 D2
+2 L2-L4 D2 -0.031119
+3 L1-L5 D3 -0.002424
+L5-L8 D1-D2
+L9-L10 D1
+4 L1-L6 D4-D5 0.022709
+L6-L8 D3
+5 L7-L8 D4-D5 0.074098
+L9-L10 D2-D4
+6 L9-L10 D5 0.126344
+Tables 19 and 20 provide the range of the percentages that correspond to the LIS/DE and disability quartiles for
+the initial categories for the determination of the CAI values for the PDP Part D summary. Quartiles are used
+for both dimensions due to the limited number of PDPs as compared to MA-PD contracts.
+Table 19: Categorization of Contract’s Members into Quartiles of LIS/DE for the PDP Part D Summary
+Percentage of Contract’s
+LIS/DE Quartile Beneficiaries who are LIS/DE
+1 0.000000 to less than 1.542070
+2 1.542070 to less than 3.159360
+3 3.159360 to less than 8.410224
+4 8.410224 to 100.000000
+(Last Updated 10/03/2024) Page 21
+--- table ---
+ | Percentage of Contract’s
+Disability Quintile | Beneficiaries who are Disabled
+1 | 0.000000 to less than 14.987453
+ | 
+2 | 14.987453 to less than 22.882693
+3 | 22.882693 to less than 32.500000
+ | 
+4 | 32.500000 to less than 45.560408
+5 | 45.560408 to 100.000000
+--- table ---
+ | Final Adjustment Category |  | LIS/DE Initial |  |  | Disability |  | CAI Value |  | 
+ |  |  | Group |  |  | Quintile |  |  |  | 
+1 |  | L1-L4 L1 |  |  | D1 D2 |  |  | -0.048532 |  | 
+ | 2 |  | L2-L4 |  |  | D2 |  |  | -0.031119 | 
+3 |  | L1-L5 |  |  | D3 |  |  | -0.002424 |  | 
+ |  | L5-L8 L9-L10 |  |  | D1-D2 D1 |  |  |  |  | 
+4 |  |  | L1-L6 |  |  | D4-D5 |  |  | 0.022709 | 
+ |  |  | L6-L8 |  |  | D3 |  |  |  | 
+5 |  | L7-L8 |  |  | D4-D5 |  |  | 0.074098 |  | 
+ |  | L9-L10 |  |  | D2-D4 |  |  |  |  | 
+ | 6 |  | L9-L10 |  |  | D5 |  |  | 0.126344 | 
+--- table ---
+ | Percentage of Contract’s
+LIS/DE Quartile | Beneficiaries who are LIS/DE
+1 | 0.000000 to less than 1.542070
+ | 
+2 | 1.542070 to less than 3.159360
+3 | 3.159360 to less than 8.410224
+ | 
+4 | 8.410224 to 100.000000
+
+========================= PDF PAGE 30  (matched: Final Adjustment Categories and CAI Values) =========================
+Table 20: Categorization of Contract’s Members into Quartiles of Disability for the PDP Part D Summary
+Percentage of Contract’s
+Disability Quartile Beneficiaries who are Disabled
+1 0.000000 to less than 6.593595
+2 6.593595 to less than 10.621062
+3 10.621062 to less than 14.589481
+4 14.589481 to 100.000000
+Table 21 provides the description of each of the final adjustment categories for the PDP Part D summary and
+the associated value of the CAI per final adjustment category. Note that the CAI values for the PDP Part D
+summary are different from the CAI values for the MA-PD Part D summary. There are three final adjustment
+categories for the PDP Part D summary.
+Table 21: Final Adjustment Categories and CAI Values for the PDP Part D Summary
+Final Adjustment
+LIS/DE Quartile Disability Quartile CAI Value
+Category
+1 L1-L2 D1-D2 -0.230036
+2 L1-L3 D3-D4 -0.081240
+L3-L4 D1-D2
+3 L4 D3-D4 0.004293
+Calculation Precision
+CMS and its contractors have always used software called SAS (an integrated system of software products
+provided by SAS Institute Inc.) to perform the calculations used in producing the Star Ratings. For all measures,
+except the improvement measures, the precision used in scoring the measure is indicated next to the label “Data
+Display” within the detailed description of each measure. The improvement measures are discussed below. The
+domain ratings are the unweighted average of the star measures and are rounded to the nearest integer.
+The improvement measures, summary, and overall ratings are calculated with at least six digits of precision
+after the decimal whenever the data allow it. The HEDIS measure scores have two digits of precision after the
+decimal. All other measures have at least six digits of precision when used in the improvement calculation.
+Contracts may request a contract-specific calculation spreadsheet which emulates the actual SAS calculations
+from the Star Ratings mailbox during the second plan preview.
+It is not possible to replicate CMS’s calculations exactly due to factors including, but not limited to: using
+published measure data from sources other than CMS’s Star Rating program which use different rounding rules,
+and exclusion of some contracts’ ratings from publicly-posted data (e.g., terminated contracts).
+Rounding Rules for Measure Scores
+Measure scores are rounded to the precision indicated next to the label “Data Display” within the detailed
+description of each measure. Measure scores are rounded using traditional rounding rules. These are standard
+“round to nearest” rules prior to cut point analysis. To obtain a value with the specified level of precision, the
+single digit following the level of precision will be rounded. If the digit to be rounded is 0, 1, 2, 3 or 4, the value
+(Last Updated 10/03/2024) Page 22
+--- table ---
+ | Percentage of Contract’s
+Disability Quartile | Beneficiaries who are Disabled
+1 | 0.000000 to less than 6.593595
+2 | 6.593595 to less than 10.621062
+3 | 10.621062 to less than 14.589481
+ | 
+4 | 14.589481 to 100.000000
+--- table ---
+ | Final Adjustment |  | LIS/DE Quartile |  |  | Disability Quartile |  |  | CAI Value |  | 
+ | Category |  |  |  |  |  |  |  |  |  | 
+1 |  |  | L1-L2 |  |  | D1-D2 |  |  | -0.230036 |  | 
+ | 2 |  |  | L1-L3 |  |  | D3-D4 |  |  | -0.081240 | 
+ |  |  |  | L3-L4 |  |  | D1-D2 |  |  |  | 
+ | 3 |  |  | L4 |  |  | D3-D4 |  |  | 0.004293 | 
+
+========================= PDF PAGE 31  (matched: Rounding Rules for Summary and Overall) =========================
+is rounded down, with no adjustment to the preceding digit. If the digit to be rounded is 5, 6, 7, 8 or 9, the value
+is rounded up, and a value of one is added to the preceding digit. After rounding, all digits after the specified
+level of precision are removed. If rounding to a whole number, the digit to be rounded is in the first decimal
+place. If the digit in the first decimal place is below 5, then after rounding the whole number remains unchanged
+and fractional parts of the number are deleted. If the digit in the first decimal place is 5 or greater, then the
+whole number is rounded up by adding a value of 1 and fractional parts of the number are deleted. For
+example, a measure listed with a Data Display of “Percentage with no decimal point” that has a value of
+83.499999 rounds down to 83, while a value of 83.500000 rounds up to 84.
+Rounding Rules for Summary and Overall Ratings
+The results of the summary and overall calculations are rounded to the nearest half star (i.e., 0.5, 1.0, 1.5, 2.0,
+2.5, 3.0, 3.5, 4.0, 4.5, 5.0). Table 22 summarizes the rounding rules for converting the Part C and D summary
+and overall ratings into the publicly reported Star Ratings.
+Table 22: Rounding Rules for Summary and Overall Ratings
+Final Summary / Overall
+Raw Summary / Overall Score Rating
+≥ 0.000000 and < 0.250000 0
+≥ 0.250000 and < 0.750000 0.5
+≥ 0.750000 and < 1.250000 1.0
+≥ 1.250000 and < 1.750000 1.5
+≥ 1.750000 and < 2.250000 2.0
+≥ 2.250000 and < 2.750000 2.5
+≥ 2.750000 and < 3.250000 3.0
+≥ 3.250000 and < 3.750000 3.5
+≥ 3.750000 and < 4.250000 4.0
+≥ 4.250000 and < 4.750000 4.5
+≥ 4.750000 and ≤ 5.000000 5.0
+For example, a summary or overall rating of 3.749999 rounds down to a rating of 3.5, and a rating of 3.750000
+rounds up to rating of 4. That is, a score would need to be at least halfway between 3.5 and 4 (having a
+minimum value of 3.750000) in order to obtain the higher rating of 4.
+Methodology for Calculating the High Performing Icon
+A contract may receive a high performing icon as a result of its performance on the Parts C and/or D measures.
+The high performing icon is assigned to an MA-Only contract for achieving a 5-star Part C summary rating, a
+PDP contract for a 5-star Part D summary rating, and an MA-PD contract for a 5-star overall rating. Figure 3
+shows the high performing icon used in the MPF:
+(Last Updated 10/03/2024) Page 23
+--- table ---
+ | Final Summary / Overall
+Raw Summary / Overall Score | Rating
+≥ 0.000000 and < 0.250000 | 0
+≥ 0.250000 and < 0.750000 | 0.5
+≥ 0.750000 and < 1.250000 | 1.0
+≥ 1.250000 and < 1.750000 | 1.5
+≥ 1.750000 and < 2.250000 | 2.0
+≥ 2.250000 and < 2.750000 | 2.5
+≥ 2.750000 and < 3.250000 | 3.0
+≥ 3.250000 and < 3.750000 | 3.5
+≥ 3.750000 and < 4.250000 | 4.0
+≥ 4.250000 and < 4.750000 | 4.5
+≥ 4.750000 and ≤ 5.000000 | 5.0
+
+========================= PDF PAGE 133  (matched: Reward Factor, Calculation of Weighted Star Rating and Variance) =========================
+Attachment H: Calculation of Weighted Star Rating and Variance Estimates
+The weighted summary (or overall) Star Rating for contract j is estimated as:
+𝑛𝑛𝑗𝑗
+� 𝑤𝑤𝑖𝑖𝑗𝑗𝑥𝑥𝑖𝑖𝑗𝑗
+𝑖𝑖=1
+𝑥𝑥𝑗𝑗̅ = 𝑛𝑛𝑗𝑗
+� 𝑤𝑤𝑖𝑖𝑗𝑗
+𝑖𝑖=1
+where n is the number of performance measures for which contract j is eligible; w is the weight assigned to
+j ij
+performance measure i for contract j; and x is the measure star for performance measure i for contract j. The
+ij
+variance of the Star Ratings for each contract , must also be computed in order to estimate the reward factor
+(r-Factor): 2
+𝑗𝑗,𝑠𝑠𝑗𝑗
+𝑛𝑛𝑗𝑗
+2 𝑛𝑛𝑗𝑗 2
+𝑠𝑠𝑗𝑗 = 𝑛𝑛𝑗𝑗 �� 𝑤𝑤𝑖𝑖𝑗𝑗�𝑥𝑥𝑖𝑖𝑗𝑗 −𝑥𝑥�𝚥𝚥� �
+�𝑛𝑛𝑗𝑗 −1��∑𝑖𝑖=1𝑤𝑤𝑖𝑖𝑗𝑗� 𝑖𝑖=1
+Thus, the ’s are the new summary (or overall) Star Ratings for the contracts. The variance estimate, , simply
+replaces the non-weighted variance estimate that was previously used for the r-Factor calculation. For a2ll
+𝑥𝑥�𝚥𝚥 𝑠𝑠𝑗𝑗
+contracts j, w = w (i.e., the performance measure weights are the same for all contracts when estimating a
+ij i
+given Star Rating (Part C or Part D summary or MA-PD overall ratings).
+(Last Updated 10/03/2024) Page 125
+
+========================= PDF PAGE 210  (matched: Reward Factor) =========================
+The first four columns contain contract identifying information. The remaining columns contain the domain
+stars which will display in MPF. There is one column for each of the Part C and Part D domains. The
+domain columns are identified by the domain id and domain name. All subsequent rows contain the stars
+associated with an individual contract. Table S-20 below shows a sample of the left hand most columns
+shown in HPMS.
+Table S-20: Domain Star page sample
+Medicare Star Ratings Report Card Master Table
+Contract Organization Contract Parent HD1: Staying Healthy: Screenings, HD2: Managing Chronic HD3: Member Experience
+Number Marketing Name Name Organization Tests and Vaccines (Long Term) Conditions with Health Plan
+HAAAA Market A Contract A PO A 4 3 4
+HBBBB Market B Contract B PO B 3 3 3
+HCCCC Market C Contract C PO C 3 3 4
+20. Part C Summary Rating page
+The Part C Summary Rating page displays the Part C rating and data associated with calculating the final
+Part C summary rating. This page is available during the second plan preview. There are flags to indicate if
+the final rating came from the without improvement measures calculation. Table S-21 below explains each
+of the columns contained on this page.
+Table S-21: Part C Summary Rating page fields
+HPMS Field Label Field Description
+Contract Number The contract number associated with the data
+Organization Marketing Name The name the contract markets to members
+Contract Name The name the contract is known by in HPMS
+Parent Organization The name of the parent organization for the contract
+Contract Type The contract plan type used to compute the ratings
+SNP Plans Does the contract offer a SNP? (Yes/No)
+Major Disaster Percentage 2022 The percentage of members living in an Individual Assistance area in 2022 rounded to an integer
+Major Disaster Percentage 2023 The percentage of members living in an Individual Assistance area in 2023 rounded to an integer
+Number Measures Required The minimum number of measures required to calculate a rating out all required for the contract type.
+Number Missing Measures The number of measures that were missing stars
+Number Rated Measures The number of measures that were assigned stars
+Calculated Summary Mean Contains the mean of the stars for rated measures
+Calculated Variance The variance of the calculated summary mean
+Calculated Score Percentile Rank Percentile ranking of Calculated Summary Mean
+Variance Percentile Rank Percentile ranking of Calculated Variance
+Variance Category The reward factor variance category for the contract (low, medium, or high)
+Reward Factor The calculated reward factor for the contract (0, 0.1, 0.2, 0.3, or 0.4)
+Interim Summary The sum of the Calculated Summary Mean and the Reward Factor
+Part C Summary FAC Part C summary final adjustment category for the contract
+CAI Value The Part C summary CAI value for the contract
+Final Summary The sum of the Interim Summary and the CAI Value
+Improvement Measure Usage Did the final Part C summary rating come from the calculation using the improvement measure? (Yes/No)
+New Measure Usage Did the final Part C summary rating come from the calculation using the new measures? (Yes/No)
+2025 Part C Summary Rating The final rounded 2025 Part C Summary Rating
+(Last Updated 10/03/2024) Page 202
+--- table ---
+Organization | Contract | Parent | HD1: Staying Healthy: Screenings, | HD2: Managing Chronic | HD3: Member Experience
+Marketing Name | Name | Organization | Tests and Vaccines | (Long Term) Conditions | with Health Plan
+Market A | Contract A | PO A | 4 | 3 | 4
+Market B | Contract B | PO B | 3 | 3 | 3
+Market C | Contract C | PO C | 3 | 3 | 4
+--- table ---
+HPMS Field Label | Field Description
+Contract Number | The contract number associated with the data
+Organization Marketing Name | The name the contract markets to members
+Contract Name | The name the contract is known by in HPMS
+Parent Organization | The name of the parent organization for the contract
+Contract Type | The contract plan type used to compute the ratings
+SNP Plans | Does the contract offer a SNP? (Yes/No)
+Major Disaster Percentage 2022 | The percentage of members living in an Individual Assistance area in 2022 rounded to an integer
+Major Disaster Percentage 2023 | The percentage of members living in an Individual Assistance area in 2023 rounded to an integer
+Number Measures Required | The minimum number of measures required to calculate a rating out all required for the contract type.
+Number Missing Measures | The number of measures that were missing stars
+Number Rated Measures | The number of measures that were assigned stars
+Calculated Summary Mean | Contains the mean of the stars for rated measures
+Calculated Variance | The variance of the calculated summary mean
+Calculated Score Percentile Rank | Percentile ranking of Calculated Summary Mean
+Variance Percentile Rank | Percentile ranking of Calculated Variance
+Variance Category | The reward factor variance category for the contract (low, medium, or high)
+Reward Factor | The calculated reward factor for the contract (0, 0.1, 0.2, 0.3, or 0.4)
+Interim Summary | The sum of the Calculated Summary Mean and the Reward Factor
+Part C Summary FAC | Part C summary final adjustment category for the contract
+CAI Value | The Part C summary CAI value for the contract
+Final Summary | The sum of the Interim Summary and the CAI Value
+Improvement Measure Usage | Did the final Part C summary rating come from the calculation using the improvement measure? (Yes/No)
+New Measure Usage | Did the final Part C summary rating come from the calculation using the new measures? (Yes/No)
+2025 Part C Summary Rating | The final rounded 2025 Part C Summary Rating
+
+========================= PDF PAGE 211  (matched: Reward Factor) =========================
+21. Part D Summary Rating page
+The Part D Summary Rating page displays the Part D rating and data associated with calculating the final
+Part D summary rating. This page is available during the second plan preview. There are flags to indicate if
+the final rating came from the without improvement measures calculation. Table S-22 below explains each
+of the columns contained on this page.
+Table S-22: Part D Summary Rating View
+HPMS Field Label Field Description
+Contract Number The contract number associated with the data
+Organization Marketing Name The name the contract markets to members
+Contract Name The name the contract is known by in HPMS
+Parent Organization The name of the parent organization for the contract
+Contract Type The contract plan type used to compute the ratings
+Major Disaster Percentage 2022 The percentage of members living in an Individual Assistance area in 2022 rounded to an integer
+Major Disaster Percentage 2023 The percentage of members living in an Individual Assistance area in 2023 rounded to an integer
+Number Measures Required The minimum number of measures required to calculate a rating out all required for the contract type
+Number Missing Measures The number of measures that were missing stars
+Number Rated Measures The number of measures that were assigned stars
+Calculated Summary Mean Contains the mean of the stars for rated measures
+Calculated Variance The variance of the calculated summary mean
+Calculated Score Percentile Rank Percentile ranking of Calculated Summary Mean
+Variance Percentile Rank Percentile ranking of Calculated Variance
+Variance Category The reward factor variance category for the contract (low, medium, or high)
+Reward Factor The calculated reward factor for the contract (0, 0.1, 0.2, 0.3, or 0.4)
+Interim Summary The sum of the Calculated Summary Mean and the Reward Factor
+Part D Summary FAC Part D summary final adjustment category for the contract
+CAI Value The Part D summary CAI value for the contract
+Final Summary The sum of the Interim Summary and the CAI Value
+Improvement Measure Usage Did the final Part D summary rating come from the calculation using the improvement measure? (Yes/No)
+2025 Part D Summary Rating The final rounded 2025 Part D Summary Rating
+22. Overall Rating page
+The Overall Rating page displays the overall rating for MA-PD contracts and data associated with
+calculating the final overall rating. This page is available during the second plan preview. There are flags to
+indicate if the final rating came from the without improvement measures calculation. Table S-23 below
+explains each of the columns contained on this page.
+(Last Updated 10/03/2024) Page 203
+--- table ---
+HPMS Field Label | Field Description
+Contract Number | The contract number associated with the data
+Organization Marketing Name | The name the contract markets to members
+Contract Name | The name the contract is known by in HPMS
+Parent Organization | The name of the parent organization for the contract
+Contract Type | The contract plan type used to compute the ratings
+Major Disaster Percentage 2022 | The percentage of members living in an Individual Assistance area in 2022 rounded to an integer
+Major Disaster Percentage 2023 | The percentage of members living in an Individual Assistance area in 2023 rounded to an integer
+Number Measures Required | The minimum number of measures required to calculate a rating out all required for the contract type
+Number Missing Measures | The number of measures that were missing stars
+Number Rated Measures | The number of measures that were assigned stars
+Calculated Summary Mean | Contains the mean of the stars for rated measures
+Calculated Variance | The variance of the calculated summary mean
+Calculated Score Percentile Rank | Percentile ranking of Calculated Summary Mean
+Variance Percentile Rank | Percentile ranking of Calculated Variance
+Variance Category | The reward factor variance category for the contract (low, medium, or high)
+Reward Factor | The calculated reward factor for the contract (0, 0.1, 0.2, 0.3, or 0.4)
+Interim Summary | The sum of the Calculated Summary Mean and the Reward Factor
+Part D Summary FAC | Part D summary final adjustment category for the contract
+CAI Value | The Part D summary CAI value for the contract
+Final Summary | The sum of the Interim Summary and the CAI Value
+Improvement Measure Usage | Did the final Part D summary rating come from the calculation using the improvement measure? (Yes/No)
+2025 Part D Summary Rating | The final rounded 2025 Part D Summary Rating
+
+========================= PDF PAGE 212  (matched: Reward Factor) =========================
+Table S-23: Overall Rating View
+HPMS Field Label Field Description
+Contract Number The contract number associated with the data
+Organization Marketing Name The name the contract markets to members
+Contract Name The name the contract is known by in HPMS
+Parent Organization The name of the parent organization for the contract
+Contract Type The contract plan type used to compute the ratings
+SNP Plans Does the contract offer a SNP? (Yes/No)
+Major Disaster Percentage 2022 The percentage of members living in an Individual Assistance area in 2022 rounded to an integer
+Major Disaster Percentage 2023 The percentage of members living in an Individual Assistance area in 2023 rounded to an integer
+Number Measures Required The minimum number of measures required to calculate a rating out all required for the contract type
+Number Missing Measures The number of measures that were missing stars
+Number Rated Measures The number of measures that were assigned stars
+2025 Part C Summary Rating The 2025 Part C Summary Rating
+2025 Part D Summary Rating The 2025 Part D Summary Rating
+Calculated Summary Mean Contains the weighted mean of the stars for rated measures
+Calculated Variance The variance of the calculated summary mean
+Calculated Score Percentile Rank Percentile ranking of Calculated Summary Mean
+Variance Percentile Rank Percentile ranking of Calculated Variance
+Variance Category The reward factor variance category for the contract (low, medium, or high)
+Reward Factor The calculated reward factor for the contract (0, 0.1, 0.2, 0.3, or 0.4)
+Interim Summary The sum of the Calculated Summary Mean and the Reward Factor
+Overall FAC Overall final adjustment category for the contract
+CAI Value The Overall CAI value for the contract
+Final Summary The sum of the Interim Summary and the CAI Value
+Improvement Measure Usage Did the final overall rating come from the calculation using the improvement measures? (Yes/No)
+New Measure Usage Did the final overall rating come from the calculation using the new measures? (Yes/No)
+2025 Overall Rating The final 2025 Overall Rating
+23. Low Performing Contract List
+The Low Performing Contract List page displays the contracts that received a Low Performing Icon and the
+data used to calculate the assignment. This page is available during the second plan preview. HPMS users in
+contracting organizations will see only their own contracts in this list. None will be displayed if no contract
+in the organization was assigned a Low Performing Icon. Table S-24 below explains each of the columns
+contained on this page.
+(Last Updated 10/03/2024) Page 204
+--- table ---
+HPMS Field Label | Field Description
+Contract Number | The contract number associated with the data
+Organization Marketing Name | The name the contract markets to members
+Contract Name | The name the contract is known by in HPMS
+Parent Organization | The name of the parent organization for the contract
+Contract Type | The contract plan type used to compute the ratings
+SNP Plans | Does the contract offer a SNP? (Yes/No)
+Major Disaster Percentage 2022 | The percentage of members living in an Individual Assistance area in 2022 rounded to an integer
+Major Disaster Percentage 2023 | The percentage of members living in an Individual Assistance area in 2023 rounded to an integer
+Number Measures Required | The minimum number of measures required to calculate a rating out all required for the contract type
+Number Missing Measures | The number of measures that were missing stars
+Number Rated Measures | The number of measures that were assigned stars
+2025 Part C Summary Rating | The 2025 Part C Summary Rating
+2025 Part D Summary Rating | The 2025 Part D Summary Rating
+Calculated Summary Mean | Contains the weighted mean of the stars for rated measures
+Calculated Variance | The variance of the calculated summary mean
+Calculated Score Percentile Rank | Percentile ranking of Calculated Summary Mean
+Variance Percentile Rank | Percentile ranking of Calculated Variance
+Variance Category | The reward factor variance category for the contract (low, medium, or high)
+Reward Factor | The calculated reward factor for the contract (0, 0.1, 0.2, 0.3, or 0.4)
+Interim Summary | The sum of the Calculated Summary Mean and the Reward Factor
+Overall FAC | Overall final adjustment category for the contract
+CAI Value | The Overall CAI value for the contract
+Final Summary | The sum of the Interim Summary and the CAI Value
+Improvement Measure Usage | Did the final overall rating come from the calculation using the improvement measures? (Yes/No)
+New Measure Usage | Did the final overall rating come from the calculation using the new measures? (Yes/No)
+2025 Overall Rating | The final 2025 Overall Rating

@@ -1,0 +1,312 @@
+2026_technical_notes.pdf: 211 pages
+measure spec pages (non-TOC): 44 -> [38, 39, 41, 42, 43, 46, 48, 49, 50, 51, 53, 55, 56, 58, 59, 60, 62, 63, 65, 66, 68, 69, 70, 71, 72, 73, 75, 76, 77, 79, 80, 81, 83, 85, 86, 88, 90, 91, 93, 95, 97, 99, 101, 104]
+weight table pages (Table G-1/G-2): [126, 127]
+
+============================== PDF PAGE 38 (measure spec) ==============================
+Part C Domain and Measure Details
+See Attachment C for the national averages of individual Part C measures.
+Domain: 1 - Staying Healthy: Screenings, Tests and Vaccines
+Measure: C01 - Breast Cancer Screening
+Title Description
+Label for Stars: Breast Cancer Screening
+Label for Data: Breast Cancer Screening
+Description: Percent of female plan members aged 50-74 who had a mammogram.
+HEDIS Label: Breast Cancer Screening (BCS)
+Measure Reference: NCQA HEDIS Measurement Year 2024 Technical Specifications Volume 2, page 558
+Metric: The percentage of women MA enrollees 52 to 74 years of age (denominator) as of
+December 31 of the measurement year who had a mammogram to screen for breast
+cancer in the past two years (numerator).
+Primary Data Source: HEDIS
+Data Source Category: Health and Drug Plans
+Exclusions: • Members in hospice or using hospice services any time during the measurement
+period.
+• Members who died any time during the measurement period.
+• Members who had a bilateral mastectomy or both right and left unilateral
+mastectomies any time during the member’s history through December 31 of the
+measurement year. Any of the following meet the criteria for bilateral mastectomy:
+- Bilateral mastectomy.
+- Unilateral mastectomy with a bilateral modifier (same procedure).
+- Unilateral mastectomy found in clinical data with a bilateral qualifier value (same
+procedure).
+- History of bilateral mastectomy.
+• Any combination of the following that indicate a mastectomy on both the left and right
+side on the same or on different dates of service:
+- Unilateral mastectomy with a right-side modifier (same procedure).
+- Unilateral mastectomy with a left-side modifier (same procedure).
+- Unilateral mastectomy found in clinical data with a right-side qualifier value (same
+procedure).
+– Unilateral mastectomy found in clinical data with a left-side qualifier value
+procedure (same procedure).
+– Absence of the left breast.
+– Absence of the right breast.
+– Left unilateral mastectomy.
+– Right unilateral mastectomy.
+• Medicare members 66 years of age and older by the end of the measurement period
+who meet either of the following:
+- Enrolled in an Institutional SNP (I-SNP) any time during the measurement year.
+- Living long-term in an institution any time during the measurement year.
+• Members 66 years of age and older by the end of the measurement period with frailty
+and advanced illness. Members must meet BOTH of the following frailty and
+advanced illness criteria to be excluded:
+(Last Updated 09/25/2025) Page 29
+
+============================== PDF PAGE 39 (continued) ==============================
+- Frailty. At least two indications of frailty with different dates of service during the
+measurement period. Do not include laboratory claims.
+- Advanced Illness. Either of the following during the measurement period or the
+year prior to the measurement period:
+• Advanced illness on at least two different dates of service. Do not include
+laboratory claims.
+• Dispensed dementia medication.
+• Members receiving palliative care any time during the measurement period.
+• Members who had an encounter for palliative care any time during the measurement
+period. Do not include laboratory claims.
+The full set of exclusions is available in the NCQA HEDIS Measurement Year 2024
+Technical Specifications Volume 2.
+Contracts whose enrollment was at least 500 but less than 1,000 as of the July 2024
+enrollment report and having measure score reliability less than 0.7 are excluded.
+Contracts whose enrollment was less than 500 as of the July 2024 enrollment report
+are excluded from this measure.
+Data Time Frame: 01/01/2024 – 12/31/2024
+General Trend: Higher is better
+Statistical Method: Clustering
+Improvement Measure: Included
+CAI Usage: Included
+Case-Mix Adjusted: No
+Weighting Category: Process Measure
+Weighting Value: 1
+Major Disaster: Higher measure star (2025-2026) for contracts with 25% or more enrolled affected by
+2024 disasters.
+Meaningful Measure Wellness and Prevention
+Area:
+CMIT #: 00093-02-C-PARTC
+Data Display: Percentage with no decimal place
+Reporting Requirements: 1876 Cost CCP w/o SNP CCP with SNP CCP with Only I-SNP MSA PDP PFFS
+Yes Yes Yes Yes Yes No Yes
+Cut Points: 1 Star 2 Stars 3 Stars 4 Stars 5 Stars
+Less than Greater than or equal to Greater than or equal to Greater than or equal to Greater than or
+58% 58% to less than 71% 71% to less than 76% 76% to less than 84% equal to 84%
+Measure: C02 - Colorectal Cancer Screening
+Title Description
+Label for Stars: Colorectal Cancer Screening
+Label for Data: Colorectal Cancer Screening
+Description: Percent of plan members aged 50-75 who had appropriate screening for colorectal
+cancer.
+(Last Updated 09/25/2025) Page 30
+
+============================== PDF PAGE 39 (measure spec) ==============================
+- Frailty. At least two indications of frailty with different dates of service during the
+measurement period. Do not include laboratory claims.
+- Advanced Illness. Either of the following during the measurement period or the
+year prior to the measurement period:
+• Advanced illness on at least two different dates of service. Do not include
+laboratory claims.
+• Dispensed dementia medication.
+• Members receiving palliative care any time during the measurement period.
+• Members who had an encounter for palliative care any time during the measurement
+period. Do not include laboratory claims.
+The full set of exclusions is available in the NCQA HEDIS Measurement Year 2024
+Technical Specifications Volume 2.
+Contracts whose enrollment was at least 500 but less than 1,000 as of the July 2024
+enrollment report and having measure score reliability less than 0.7 are excluded.
+Contracts whose enrollment was less than 500 as of the July 2024 enrollment report
+are excluded from this measure.
+Data Time Frame: 01/01/2024 – 12/31/2024
+General Trend: Higher is better
+Statistical Method: Clustering
+Improvement Measure: Included
+CAI Usage: Included
+Case-Mix Adjusted: No
+Weighting Category: Process Measure
+Weighting Value: 1
+Major Disaster: Higher measure star (2025-2026) for contracts with 25% or more enrolled affected by
+2024 disasters.
+Meaningful Measure Wellness and Prevention
+Area:
+CMIT #: 00093-02-C-PARTC
+Data Display: Percentage with no decimal place
+Reporting Requirements: 1876 Cost CCP w/o SNP CCP with SNP CCP with Only I-SNP MSA PDP PFFS
+Yes Yes Yes Yes Yes No Yes
+Cut Points: 1 Star 2 Stars 3 Stars 4 Stars 5 Stars
+Less than Greater than or equal to Greater than or equal to Greater than or equal to Greater than or
+58% 58% to less than 71% 71% to less than 76% 76% to less than 84% equal to 84%
+Measure: C02 - Colorectal Cancer Screening
+Title Description
+Label for Stars: Colorectal Cancer Screening
+Label for Data: Colorectal Cancer Screening
+Description: Percent of plan members aged 50-75 who had appropriate screening for colorectal
+cancer.
+(Last Updated 09/25/2025) Page 30
+
+============================== PDF PAGE 40 (continued) ==============================
+HEDIS Label: Colorectal Cancer Screening (COL)
+Measure Reference: NCQA HEDIS Measurement Year 2024 Technical Specifications Volume 2, page 578
+Metric: The percentage of MA enrollees aged 50 to 75 (denominator) as of December 31 of
+the measurement year who had appropriate screenings for colorectal cancer
+(numerator).
+Primary Data Source: HEDIS Patient-level Data
+Data Source Category: Health and Drug Plans
+Exclusions: • Members who use hospice services or elect to use a hospice benefit any time during
+the measurement period.
+• Members who died any time during the measurement period.
+• Members who had colorectal cancer any time during the member’s history through
+December 31 of the measurement year. Do not include laboratory claims.
+• Members who had a total colectomy any time during the member’s history through
+December 31 of the measurement period.
+• Medicare members 66 years of age and older by the end of the measurement period
+who meet either of the following:
+- Enrolled in an Institutional SNP (I-SNP) any time during the measurement period.
+- Living long-term in an institution any time during the measurement period.
+• Members 66 years of age and older by the end of the measurement period with frailty
+and advanced illness. Members must meet BOTH of the following frailty and
+advanced illness criteria to be excluded:
+- Frailty. At least two indications of frailty with different dates of service during the
+measurement period. Do not include laboratory claims.
+- Advanced Illness. Either of the following during the measurement period or the
+year prior to the measurement period:
+• Advanced illness on at least two different dates of service. Do not include
+laboratory claims.
+• Dispensed dementia medication.
+• Members receiving palliative care any time during the measurement period.
+• Members who had an encounter for palliative care any time during the measurement
+period. Do not include laboratory claims.
+The full set of exclusions is available in the NCQA HEDIS Measurement Year 2024
+Technical Specifications Volume 2.
+Contracts whose enrollment was at least 500 but less than 1,000 as of the enrollment
+report and having measure score reliability less than 0.7 are excluded.
+Contracts whose enrollment was less than 500 as of the July 2024 enrollment report
+are excluded from this measure.
+Data Time Frame: 01/01/2024 – 12/31/2024
+General Trend: Higher is better
+Statistical Method: Clustering
+Improvement Measure: Included
+CAI Usage: Included
+Case-Mix Adjusted: No
+Weighting Category: Process Measure
+(Last Updated 09/25/2025) Page 31
+
+============================== PDF PAGE 126 (weight table text) ==============================
+Final Rate reported for Contract 1 equals 13%
+The actual calculated National Observed Rate used in the 2026 Star Ratings was 0.107940666493859.
+Attachment G: Weights Assigned to Individual Performance Measures
+Table G-1: Part C Measure Weights
+Part C
+Summary
+Measu and MA-PD
+re ID Measure Name Weighting Category Overall
+C01 Breast Cancer Screening Process Measure 1
+C02 Colorectal Cancer Screening Process Measure 1
+C03 Annual Flu Vaccine Process Measure 1
+C04 Improving or Maintaining Physical Health Intermediate Outcome Measure 1*
+C05 Improving or Maintaining Mental Health Intermediate Outcome Measure 1*
+C06 Monitoring Physical Activity Process Measure 1
+C07 Special Needs Plan (SNP) Care Management Process Measure 1
+C08 Care for Older Adults – Medication Review Process Measure 1
+C09 Care for Older Adults – Pain Assessment Process Measure 1
+C10 Osteoporosis Management in Women who had a Fracture Process Measure 1
+C11 Diabetes Care – Eye Exam Process Measure 1
+C12 Diabetes Care – Blood Sugar Controlled Intermediate Outcome Measure 3
+C13 Kidney Health Evaluation for Patients with Diabetes Process Measure 1
+C14 Controlling Blood Pressure Intermediate Outcome Measure 3
+C15 Reducing the Risk of Falling Process Measure 1
+C16 Improving Bladder Control Process Measure 1
+C17 Medication Reconciliation Post-Discharge Process Measure 1
+C18 Plan All-Cause Readmissions Outcome Measure 3
+C19 Statin Therapy for Patients with Cardiovascular Disease Process Measure 1
+C20 Transitions of Care Process Measure 1
+C21 Follow-up after Emergency Department Visit for People with Multiple Process Measure 1
+High-Risk Chronic Conditions
+C22 Getting Needed Care Patients’ Experience and Complaints Measure 2
+C23 Getting Appointments and Care Quickly Patients’ Experience and Complaints Measure 2
+C24 Customer Service Patients’ Experience and Complaints Measure 2
+C25 Rating of Health Care Quality Patients’ Experience and Complaints Measure 2
+C26 Rating of Health Plan Patients’ Experience and Complaints Measure 2
+C27 Care Coordination Patients’ Experience and Complaints Measure 2
+C28 Complaints about the Health Plan Patients’ Experience and Complaints Measure 2
+C29 Members Choosing to Leave the Plan Patients’ Experience and Complaints Measure 2
+C30 Health Plan Quality Improvement Improvement Measure 5
+C31 Plan Makes Timely Decisions about Appeals Measures Capturing Access 2
+C32 Reviewing Appeals Decisions Measures Capturing Access 2
+C33 Call Center – Foreign Language Interpreter and TTY Availability Measures Capturing Access 2
+*Improving or Maintaining Physical Health and Improving or Maintaining Mental Health measures have a weight of 1 for the 2026 Star
+(Last Updated 09/25/2025) Page 117
+
+--- extract_tables() found 1 table(s) on page 126 ---
+ |  |  | Part C
+ |  |  | Summary
+Measu |  |  | and MA-PD
+re ID | Measure Name | Weighting Category | Overall
+C01 | Breast Cancer Screening | Process Measure | 1
+C02 | Colorectal Cancer Screening | Process Measure | 1
+C03 | Annual Flu Vaccine | Process Measure | 1
+C04 | Improving or Maintaining Physical Health | Intermediate Outcome Measure | 1*
+C05 | Improving or Maintaining Mental Health | Intermediate Outcome Measure | 1*
+C06 | Monitoring Physical Activity | Process Measure | 1
+C07 | Special Needs Plan (SNP) Care Management | Process Measure | 1
+C08 | Care for Older Adults – Medication Review | Process Measure | 1
+C09 | Care for Older Adults – Pain Assessment | Process Measure | 1
+C10 | Osteoporosis Management in Women who had a Fracture | Process Measure | 1
+C11 | Diabetes Care – Eye Exam | Process Measure | 1
+C12 | Diabetes Care – Blood Sugar Controlled | Intermediate Outcome Measure | 3
+C13 | Kidney Health Evaluation for Patients with Diabetes | Process Measure | 1
+C14 | Controlling Blood Pressure | Intermediate Outcome Measure | 3
+C15 | Reducing the Risk of Falling | Process Measure | 1
+C16 | Improving Bladder Control | Process Measure | 1
+C17 | Medication Reconciliation Post-Discharge | Process Measure | 1
+C18 | Plan All-Cause Readmissions | Outcome Measure | 3
+C19 | Statin Therapy for Patients with Cardiovascular Disease | Process Measure | 1
+C20 | Transitions of Care | Process Measure | 1
+C21 | Follow-up after Emergency Department Visit for People with Multiple High-Risk Chronic Conditions | Process Measure | 1
+C22 | Getting Needed Care | Patients’ Experience and Complaints Measure | 2
+C23 | Getting Appointments and Care Quickly | Patients’ Experience and Complaints Measure | 2
+C24 | Customer Service | Patients’ Experience and Complaints Measure | 2
+C25 | Rating of Health Care Quality | Patients’ Experience and Complaints Measure | 2
+C26 | Rating of Health Plan | Patients’ Experience and Complaints Measure | 2
+C27 | Care Coordination | Patients’ Experience and Complaints Measure | 2
+C28 | Complaints about the Health Plan | Patients’ Experience and Complaints Measure | 2
+C29 | Members Choosing to Leave the Plan | Patients’ Experience and Complaints Measure | 2
+C30 | Health Plan Quality Improvement | Improvement Measure | 5
+C31 | Plan Makes Timely Decisions about Appeals | Measures Capturing Access | 2
+C32 | Reviewing Appeals Decisions | Measures Capturing Access | 2
+C33 | Call Center – Foreign Language Interpreter and TTY Availability | Measures Capturing Access | 2
+
+============================== PDF PAGE 127 (weight table text) ==============================
+Ratings because they are considered new measures. For the 2027 Star Ratings, the weight will return to 3.
+Table G-2: Part D Measure Weights
+Part D
+Summary
+Measu and MA-PD
+re ID Measure Name Weighting Category Overall
+D01 Call Center – Foreign Language Interpreter and TTY Availability Measures Capturing Access 2
+D02 Complaints about the Drug Plan Patients’ Experience and Complaints Measure 2
+D03 Members Choosing to Leave the Plan Patients’ Experience and Complaints Measure 2
+D04 Drug Plan Quality Improvement Improvement Measure 5
+D05 Rating of Drug Plan Patients’ Experience and Complaints Measure 2
+D06 Getting Needed Prescription Drugs Patients’ Experience and Complaints Measure 2
+D07 MPF Price Accuracy Process Measure 1
+D08* Medication Adherence for Diabetes Medications Intermediate Outcome Measure 3
+D09* Medication Adherence for Hypertension (RAS antagonists) Intermediate Outcome Measure 3
+D10* Medication Adherence for Cholesterol (Statins) Intermediate Outcome Measure 3
+D11 MTM Program Completion Rate for CMR Process Measure 1
+D12 Statin Use in Persons with Diabetes (SUPD) Process Measure 1
+*For contracts whose service area only covers Puerto Rico, the weight for each adherence measure is set to zero (0) when calculating
+the summary and overall rating.
+(Last Updated 09/25/2025) Page 118
+
+--- extract_tables() found 1 table(s) on page 127 ---
+ |  |  | Part D
+ |  |  | Summary
+Measu |  |  | and MA-PD
+re ID | Measure Name | Weighting Category | Overall
+D01 | Call Center – Foreign Language Interpreter and TTY Availability | Measures Capturing Access | 2
+D02 | Complaints about the Drug Plan | Patients’ Experience and Complaints Measure | 2
+D03 | Members Choosing to Leave the Plan | Patients’ Experience and Complaints Measure | 2
+D04 | Drug Plan Quality Improvement | Improvement Measure | 5
+D05 | Rating of Drug Plan | Patients’ Experience and Complaints Measure | 2
+D06 | Getting Needed Prescription Drugs | Patients’ Experience and Complaints Measure | 2
+D07 | MPF Price Accuracy | Process Measure | 1
+D08* | Medication Adherence for Diabetes Medications | Intermediate Outcome Measure | 3
+D09* | Medication Adherence for Hypertension (RAS antagonists) | Intermediate Outcome Measure | 3
+D10* | Medication Adherence for Cholesterol (Statins) | Intermediate Outcome Measure | 3
+D11 | MTM Program Completion Rate for CMR | Process Measure | 1
+D12 | Statin Use in Persons with Diabetes (SUPD) | Process Measure | 1
