@@ -1,0 +1,66 @@
+[stg_measure_stars] 103,737 rows
+[stg_measure_scores] 103,737 rows
+[stg_summary] 2,415 rows
+[stg_cai] 2,359 rows
+[dim_contract] 2,415 rows
+[fct_contract_year] 2,415 rows
+
+=== Validation ===
+PASS [ERROR] measure stars unique per year x contract x measure: 0
+PASS [ERROR] star values within 1 to 5: 0
+PASS [ERROR] every measure row has stars or a not-rated reason: 0
+PASS [ERROR] summary ratings are half-star values from 1 to 5: 0
+PASS [ERROR] every contract with measure stars has a summary row: 0
+PASS [ERROR] every measure code maps to exactly one measure name per year: 0
+FLAG [WARN] measure scores that are present but not numeric: 3215
+PASS [WARN] rated contracts with no CAI category: 0
+
+=== Rating distribution (contracts with a rating used for bonus) ===
+ star_year  rated_contracts  avg_rating  pct_4_plus
+      2024              551        3.69        45.0
+      2025              527        3.65        41.2
+      2026              525        3.71        44.6
+
+=== Measures that changed between years (by name) ===
+                                                                                       measure_key code_2024 code_2025 code_2026
+                                   C:call center foreign language interpreter and tty availability       C30       C30       C33
+                                                                               C:care coordination       C24       C24       C27
+                                                         C:care for older adults medication review       C06       C06       C08
+                                                           C:care for older adults pain assessment       C07       C07       C09
+                                                                C:complaints about the health plan       C25       C25       C28
+                                                                 C:controlling high blood pressure       C11       C11       C14
+                                                                                C:customer service       C21       C21       C24
+                                                            C:diabetes care blood sugar controlled       C10       C10       C12
+                                                                          C:diabetes care eye exam       C09       C09       C11
+C:follow up after emergency department visit for people with multiple high risk chronic conditions       C18       C18       C21
+                                                           C:getting appointments and care quickly       C20       C20       C23
+                                                                             C:getting needed care       C19       C19       C22
+                                                                 C:health plan quality improvement       C27       C27       C30
+                                                                       C:improving bladder control       C13       C13       C16
+                                                          C:improving or maintaining mental health       NaN       NaN       C05
+                                                        C:improving or maintaining physical health       NaN       NaN       C04
+                                             C:kidney health evaluation for patients with diabetes       NaN       NaN       C13
+                                                        C:medication reconciliation post discharge       C14       C14       C17
+                                                              C:members choosing to leave the plan       C26       C26       C29
+                                                                    C:monitoring physical activity       C04       C04       C06
+                                             C:osteoporosis management in women who had a fracture       C08       C08       C10
+                                                                     C:plan all cause readmissions       C15       C15       C18
+                                                       C:plan makes timely decisions about appeals       C28       C28       C31
+                                                                   C:rating of health care quality       C22       C22       C25
+                                                                           C:rating of health plan       C23       C23       C26
+                                                                    C:reducing the risk of falling       C12       C12       C15
+                                                                     C:reviewing appeals decisions       C29       C29       C32
+                                                          C:special needs plan snp care management       C05       C05       C07
+                                         C:statin therapy for patients with cardiovascular disease       C16       C16       C19
+                                                                             C:transitions of care       C17       C17       C20
+
+=== Examples of non-numeric scores on rated measures ===
+measure_code                             measure_name                                       score_text    n
+         D04            Drug Plan Quality Improvement Medicare shows only a Star Rating for this topic 1739
+         C27          Health Plan Quality Improvement Medicare shows only a Star Rating for this topic  928
+         C30          Health Plan Quality Improvement Medicare shows only a Star Rating for this topic  483
+         C05 Special Needs Plan (SNP) Care Management      CMS identified issues with this plan's data   32
+         C07 Special Needs Plan (SNP) Care Management      CMS identified issues with this plan's data   24
+         C17                      Transitions of Care      CMS identified issues with this plan's data    6
+         C20                      Transitions of Care      CMS identified issues with this plan's data    2
+         D11      MTM Program Completion Rate for CMR      CMS identified issues with this plan's data    1

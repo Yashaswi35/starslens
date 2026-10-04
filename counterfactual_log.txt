@@ -1,0 +1,98 @@
+=== Step 1: our computed thresholds vs CMS published (2026, with improvement, with new measures) ===
+rating_type     stat  percentile    cms   ours    diff
+     part_c     mean          65 3.6957 3.7115  0.0158
+part_d_mapd     mean          65 3.7407 3.7615  0.0208
+ part_d_pdp     mean          65 3.3855 3.3790 -0.0066
+    overall     mean          65 3.6494 3.6743  0.0250
+     part_c     mean          85 4.0000 4.0196  0.0196
+part_d_mapd     mean          85 4.0000 4.0532  0.0532
+ part_d_pdp     mean          85 3.9133 3.8785 -0.0348
+    overall     mean          85 3.9324 3.9458  0.0133
+     part_c variance          30 0.9184 0.9118 -0.0067
+part_d_mapd variance          30 0.7542 0.7542 -0.0000
+ part_d_pdp variance          30 0.8690 0.8814  0.0124
+    overall variance          30 0.9148 0.9044 -0.0105
+     part_c variance          70 1.2852 1.2681 -0.0171
+part_d_mapd variance          70 1.2690 1.2444 -0.0246
+ part_d_pdp variance          70 1.7479 1.7431 -0.0048
+    overall variance          70 1.2635 1.2476 -0.0159
+
+Baseline match rate with computed thresholds: 94.2% of 1653 ratings
+
+=== Step 2: top-level rating, actual 2026 weights minus old weights (contracts) ===
+change
+-0.5     88
+ 0.0    421
+ 0.5     52
+
+=== Step 3: crossings of the 4-star bonus line caused by the reweighting ===
+Reached 4+ only because of the new weights: 16 contracts
+Fell below 4 only because of the new weights: 31 contracts
+Net: -15   (rated top-level contracts: 561)
+
+--- Gained bonus status ---
+contract_id                                         parent_org ctype  final_old_weights  final_actual  official
+      H3443                      Alignment Healthcare USA, LLC MA-PD                3.5           4.0       4.0
+      H3219  Allina Health and Aetna Insurance Holding Company MA-PD                3.5           4.0       4.0
+      H2663                             CVS Health Corporation MA-PD                3.5           4.0       4.0
+      H3597                             CVS Health Corporation MA-PD                3.5           4.0       4.0
+      H0504                     California Physicians' Service MA-PD                3.5           4.0       4.0
+      H2225                                         CareSource MA-PD                3.5           4.0       4.0
+      H8010                       Clover Health Holdings, Inc. MA-PD                3.5           4.0       4.5
+      H4808                               Devoted Health, Inc. MA-PD                3.5           4.0       4.0
+      H7151                               Devoted Health, Inc. MA-PD                3.5           4.0       4.0
+      H3330                                 EmblemHealth, Inc. MA-PD                3.5           4.0       4.0
+      H8166                                    Highmark Health MA-PD                3.5           4.0       4.0
+      H9907                                Point32Health, Inc. MA-PD                3.5           4.0       4.0
+      H9047                        Providence St Joseph Health MA-PD                3.5           4.0       4.0
+      H0978                                         SCAN Group MA-PD                3.5           4.0       4.0
+      H2962                  Ultimate Healthcare Holdings, LLC MA-PD                3.5           4.0       4.0
+      H5262 University of Wisconsin Hospitals and Clincs Autho MA-PD                3.5           4.0       4.0
+
+--- Lost bonus status ---
+contract_id                                         parent_org ctype  final_old_weights  final_actual  official
+      H6874                                      Aspirus, Inc. MA-PD                4.0           3.5       3.5
+      H1993                Astiva Health Holdings Incorporated MA-PD                4.0           3.5       4.0
+      H2461                             Aware Integrated, Inc. MA-PD                4.0           3.5       3.5
+      H6202 Blue Cross Blue Shield of Michigan Mutual Ins. Co. MA-PD                4.0           3.5       3.5
+      H6898 Blue Cross Blue Shield of Michigan Mutual Ins. Co. MA-PD                4.0           3.5       3.5
+      H0104                    BlueCross BlueShield of Alabama MA-PD                4.0           3.5       4.0
+      H0628                             CVS Health Corporation MA-PD                4.0           3.5       4.0
+      H1692                             CVS Health Corporation MA-PD                4.0           3.5       3.5
+      H3239                             CVS Health Corporation MA-PD                4.0           3.5       3.5
+      H5325                             CVS Health Corporation MA-PD                4.0           3.5       3.5
+      H4605                      Cambia Health Solutions, Inc. MA-PD                4.0           3.5       3.5
+      H0174                                Centene Corporation MA-PD                4.0           3.5       4.0
+      H9888                               Devoted Health, Inc. MA-PD                4.0           3.5       3.5
+      H1947                              Elevance Health, Inc. MA-PD                4.0           3.5       3.5
+      H5854                              Elevance Health, Inc. MA-PD                4.0           3.5       3.5
+      H6078                              Elevance Health, Inc. MA-PD                4.0           3.5       3.5
+      H9525                              Elevance Health, Inc. MA-PD                4.0           3.5       3.5
+      H9001                 Fallon Community Health Plan, Inc. MA-PD                4.0           3.5       4.0
+      H4005               Guidewell Mutual Holding Corporation MA-PD                4.0           3.5       3.5
+      H0439                    Health Care Service Corporation MA-PD                4.0           3.5       3.5
+      H2422                               HealthPartners, Inc. MA-PD                4.0           3.5       3.5
+      H0885                       Horizon Mutual Holdings, Inc MA-PD                4.0           3.5       4.0
+      H4141                                        Humana Inc. MA-PD                4.0           3.5       4.0
+      H8145                                        Humana Inc. MA-PD                4.0           3.5       3.5
+      H8176                            Molina Healthcare, Inc. MA-PD                4.0           3.5       3.5
+      H7123                                 UPMC Health System MA-PD                4.0           3.5       3.5
+      H0251                           UnitedHealth Group, Inc. MA-PD                4.0           3.5       3.5
+      H0432                           UnitedHealth Group, Inc. MA-PD                4.0           3.5       4.0
+      H5322                           UnitedHealth Group, Inc. MA-PD                4.0           3.5       4.0
+      H6595                           UnitedHealth Group, Inc. MA-PD                4.0           3.5       3.5
+      H8947           West Virginia United Health System, Inc. MA-PD                4.0           3.5       4.5
+
+=== By parent organization (contracts gained minus lost, top 10 by absolute net) ===
+                                                    sum  count
+parent_org                                                    
+UnitedHealth Group, Inc.                             -4      4
+Elevance Health, Inc.                                -4      4
+Blue Cross Blue Shield of Michigan Mutual Ins. Co.   -2      2
+CVS Health Corporation                               -2      6
+Humana Inc.                                          -2      2
+Alignment Healthcare USA, LLC                         1      1
+Point32Health, Inc.                                   1      1
+Highmark Health                                       1      1
+Horizon Mutual Holdings, Inc                         -1      1
+Molina Healthcare, Inc.                              -1      1

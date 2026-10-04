@@ -1,0 +1,71 @@
+=== Exact match rate vs CMS official rating (%) ===
+                   contracts  S1 weighted mean  S2 + reward factor  S3 + CAI  S4 + improvement rule  S5 + new-measure rule
+star_year rating                                                                                                          
+2024      overall      545.0              70.1                86.1      90.3                   98.0                   98.0
+          part_c       551.0              78.0                93.5      98.2                   98.5                   98.5
+          part_d       667.0              75.1                83.8      93.1                   94.5                   94.5
+2025      overall      521.0              68.5                85.2      91.0                   99.8                   99.8
+          part_c       527.0              79.7                95.3      99.8                   99.8                   99.8
+          part_d       633.0              76.0                91.0      98.9                   99.5                   99.5
+2026      overall      516.0              60.3                76.7      82.2                   90.1                   90.5
+          part_c       524.0              78.4                94.1      99.2                   99.4                  100.0
+          part_d       613.0              79.3                92.3      97.9                   98.7                   98.7
+
+All years and ratings combined:
+{'S1 weighted mean': np.float64(74.1), 'S2 + reward factor': np.float64(88.7), 'S3 + CAI': np.float64(94.6), 'S4 + improvement rule': np.float64(97.6), 'S5 + new-measure rule': np.float64(97.7)} contracts: 5097
+
+=== Final stage: replicated minus official (count of ratings) ===
+diff               -1.0  -0.5   0.0   0.5
+star_year rating                         
+2024      overall     0     1   534    10
+          part_c      0     6   543     2
+          part_d      0     4   630    33
+2025      overall     0     1   520     0
+          part_c      0     1   526     0
+          part_d      0     3   630     0
+2026      overall     8    41   467     0
+          part_c      0     0   524     0
+          part_d      0     8   605     0
+
+=== Misses near a rounding boundary (raw score within 0.05 of x.25 or x.75) ===
+38 of 118 misses are within 0.05 of a boundary
+
+=== For misses: which alternative calculation would have matched CMS? (count) ===
+                   with_impr_with_new  without_impr_with_new  with_impr_without_new  without_impr_without_new  no_reward_factor  misses
+star_year rating                                                                                                                       
+2024      overall                   4                      6                      8                         9                10      11
+          part_c                    0                      2                      1                         2                 2       8
+          part_d                    0                     17                      0                        17                33      37
+2025      overall                   0                      0                      0                         0                 0       1
+          part_c                    0                      0                      0                         0                 0       1
+          part_d                    0                      0                      0                         0                 0       3
+2026      overall                   0                      6                      1                         7                 0      49
+          part_d                    0                      5                      0                         5                 0       8
+
+=== Sample of misses ===
+ star_year contract_id contract_type  rating  official  s5   mean  variance  reward_factor     cai  raw_final  n_measures
+      2024       H0885         MA-PD overall       3.5 4.0 3.7340    1.0342            0.1 -0.0015     3.8325          34
+      2024       H1608         MA-PD overall       4.0 4.5 4.0103    1.0065            0.3 -0.0015     4.3088          37
+      2024       H1659         MA-PD overall       4.0 4.5 4.0230    0.9714            0.4 -0.0015     4.4215          33
+      2024       H2802         MA-PD overall       4.0 4.5 4.0111    0.5134            0.4  0.0167     4.4278          38
+      2024       H3351         MA-PD overall       4.0 4.5 3.9691    1.0480            0.1 -0.0249     4.0442          37
+      2024       H3924         MA-PD overall       4.0 4.5 3.9175    1.4764            0.0 -0.0015     3.9160          37
+      2024       H3928         MA-PD overall       4.0 4.5 4.0361    1.3089            0.3  0.0167     4.3528          29
+      2024       H3954         MA-PD overall       4.0 4.5 3.9500    1.4641            0.0  0.0167     3.9667          40
+      2024       H4007         MA-PD overall       5.0 4.5 4.2527    1.0751            0.3  0.1333     4.6860          37
+      2024       H4513         MA-PD overall       4.0 4.5 4.0000    0.3652            0.4  0.0362     4.4362          38
+      2024       H8181         MA-PD overall       4.0 4.5 3.8542    1.4138            0.1 -0.0015     3.9526          36
+      2024       H1889         MA-PD  part_c       4.5 4.0 3.9697    0.8151            0.2  0.0669     4.2366          29
+      2024       H2320         MA-PD  part_c       4.0 4.5 4.1029    0.8900            0.2 -0.0035     4.2995          27
+      2024       H3416         MA-PD  part_c       4.0 4.5 4.1356    1.3957            0.3 -0.0035     4.4321          24
+      2024       H4005         MA-PD  part_c       4.0 3.5 3.6780    2.0672            0.0  0.0228     3.7008          24
+      2024       H5434         MA-PD  part_c       4.0 3.5 3.7206    0.7589            0.0 -0.0035     3.7171          27
+      2024       H5594         MA-PD  part_c       5.0 4.5 4.3239    0.7511            0.4 -0.0035     4.7205          30
+      2024       H5774         MA-PD  part_c       4.5 4.0 4.1408    1.6113            0.0  0.0669     4.2077          30
+      2024       H7284         MA-PD  part_c       4.5 4.0 4.0000    0.6702            0.2 -0.0035     4.1965          30
+      2024       H1304         MA-PD  part_d       4.0 3.5 3.7027    1.3483            0.0 -0.0186     3.6841          12
+      2024       H1352         MA-PD  part_d       3.5 4.0 3.7568    1.0853            0.1 -0.0186     3.8382          12
+      2024       H1463         MA-PD  part_d       4.0 4.5 4.0541    0.8224            0.4 -0.0186     4.4355          12
+      2024       H1608         MA-PD  part_d       4.0 4.5 4.0000    1.0614            0.3  0.0099     4.3099          12
+      2024       H1609         MA-PD  part_d       4.0 4.5 4.0000    0.2948            0.4  0.0345     4.4345          12
+      2024       H1774         MA-PD  part_d       3.5 4.0 3.7083    1.3574            0.1 -0.0186     3.7897           9
